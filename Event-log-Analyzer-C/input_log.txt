@@ -1,0 +1,5392 @@
+Level	Date and Time	source	Event ID	Task Category
+Information	7/20/2015 1:08:08 PM	Microsoft-Windows-Security-Auditing	5140	File Share	"A network share object was accessed.
+	
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		DIM-305$
+	Account Domain:		GROUP2-305
+	Logon ID:		0x22e2c04
+
+Network Information:	
+	Source Address:		::1
+	Source Port:		59059
+	
+Share Name:			\\*\SYSVOL"
+Information	7/20/2015 1:08:08 PM	Microsoft-Windows-Security-Auditing	4624	Logon	"An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Logon Type:			3
+
+New Logon:
+	Security ID:		S-1-5-18
+	Account Name:		DIM-305$
+	Account Domain:		GROUP2-305
+	Logon ID:		0x22e2c3a
+	Logon GUID:		{51A42278-3158-F492-8A4D-ECCC1CA0039F}
+
+Process Information:
+	Process ID:		0x0
+	Process Name:		-
+
+Network Information:
+	Workstation Name:	
+	Source Network Address:	::1
+	Source Port:		59061
+
+Detailed Authentication Information:
+	Logon Process:		Kerberos
+	Authentication Package:	Kerberos
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested."
+Information	7/20/2015 1:08:08 PM	Microsoft-Windows-Security-Auditing	5140	File Share	"A network share object was accessed.
+	
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		DIM-305$
+	Account Domain:		GROUP2-305
+	Logon ID:		0x22e2c04
+
+Network Information:	
+	Source Address:		::1
+	Source Port:		59059
+	
+Share Name:			\\*\IPC$"
+Information	7/20/2015 1:08:08 PM	Microsoft-Windows-Security-Auditing	4624	Logon	"An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Logon Type:			3
+
+New Logon:
+	Security ID:		S-1-5-18
+	Account Name:		DIM-305$
+	Account Domain:		GROUP2-305
+	Logon ID:		0x22e2c04
+	Logon GUID:		{2E26668D-C2B4-4FBD-95D3-9FCD293A42DB}
+
+Process Information:
+	Process ID:		0x0
+	Process Name:		-
+
+Network Information:
+	Workstation Name:	
+	Source Network Address:	::1
+	Source Port:		59059
+
+Detailed Authentication Information:
+	Logon Process:		Kerberos
+	Authentication Package:	Kerberos
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested."
+Information	7/20/2015 1:08:08 PM	Microsoft-Windows-Security-Auditing	4624	Logon	"An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Logon Type:			3
+
+New Logon:
+	Security ID:		S-1-5-18
+	Account Name:		DIM-305$
+	Account Domain:		GROUP2-305
+	Logon ID:		0x22e2be2
+	Logon GUID:		{254DA3FC-3CE4-0BD4-D151-ED09117E9E8C}
+
+Process Information:
+	Process ID:		0x0
+	Process Name:		-
+
+Network Information:
+	Workstation Name:	
+	Source Network Address:	10.10.25.248
+	Source Port:		59058
+
+Detailed Authentication Information:
+	Logon Process:		Kerberos
+	Authentication Package:	Kerberos
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested."
+Information	7/20/2015 1:08:08 PM	Microsoft-Windows-Security-Auditing	4624	Logon	"An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Logon Type:			3
+
+New Logon:
+	Security ID:		S-1-5-18
+	Account Name:		DIM-305$
+	Account Domain:		GROUP2-305
+	Logon ID:		0x22e2b97
+	Logon GUID:		{A5AD8E1B-D9E2-60E4-2A11-4527CC3E8A81}
+
+Process Information:
+	Process ID:		0x0
+	Process Name:		-
+
+Network Information:
+	Workstation Name:	
+	Source Network Address:	::1
+	Source Port:		0
+
+Detailed Authentication Information:
+	Logon Process:		Kerberos
+	Authentication Package:	Kerberos
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested."
+Information	7/20/2015 1:08:08 PM	Microsoft-Windows-Security-Auditing	4624	Logon	"An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Logon Type:			3
+
+New Logon:
+	Security ID:		S-1-5-18
+	Account Name:		DIM-305$
+	Account Domain:		GROUP2-305
+	Logon ID:		0x22e2ada
+	Logon GUID:		{254DA3FC-3CE4-0BD4-D151-ED09117E9E8C}
+
+Process Information:
+	Process ID:		0x0
+	Process Name:		-
+
+Network Information:
+	Workstation Name:	
+	Source Network Address:	10.10.25.248
+	Source Port:		59057
+
+Detailed Authentication Information:
+	Logon Process:		Kerberos
+	Authentication Package:	Kerberos
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested."
+Information	7/20/2015 1:05:22 PM	Microsoft-Windows-Security-Auditing	4656	File System	"A handle to an object was requested.
+
+Subject:
+	Security ID:		S-1-5-21-3794405679-3244179209-1787853216-1156
+	Account Name:		teacher2
+	Account Domain:		GROUP2-305
+	Logon ID:		0x224336e
+
+Object:
+	Object Server:		Security
+	Object Type:		File
+	Object Name:		\Device\HarddiskVolume7\MainShare
+	Handle ID:		0xa08
+
+Process Information:
+	Process ID:		0x4
+	Process Name:		
+
+Access Request Information:
+	Transaction ID:		{00000000-0000-0000-0000-000000000000}
+	Accesses:		ReadData (or ListDirectory)
+			ReadAttributes
+			
+	Access Mask:		0x81
+	Privileges Used for Access Check:	-
+	Restricted SID Count:	0"
+Information	7/20/2015 1:05:22 PM	Microsoft-Windows-Security-Auditing	4656	File System	"A handle to an object was requested.
+
+Subject:
+	Security ID:		S-1-5-21-3794405679-3244179209-1787853216-1156
+	Account Name:		teacher2
+	Account Domain:		GROUP2-305
+	Logon ID:		0x224336e
+
+Object:
+	Object Server:		Security
+	Object Type:		File
+	Object Name:		\Device\HarddiskVolume7\MainShare\TestShare2
+	Handle ID:		0x28c
+
+Process Information:
+	Process ID:		0x4
+	Process Name:		
+
+Access Request Information:
+	Transaction ID:		{00000000-0000-0000-0000-000000000000}
+	Accesses:		ReadData (or ListDirectory)
+			ReadAttributes
+			
+	Access Mask:		0x81
+	Privileges Used for Access Check:	-
+	Restricted SID Count:	0"
+Information	7/20/2015 1:05:22 PM	Microsoft-Windows-Security-Auditing	4663	File System	"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-21-3794405679-3244179209-1787853216-1156
+	Account Name:		teacher2
+	Account Domain:		GROUP2-305
+	Logon ID:		0x224336e
+
+Object:
+	Object Server:	Security
+	Object Type:	File
+	Object Name:	\Device\HarddiskVolume7\MainShare\TestShare2\New folder
+	Handle ID:	0xa08
+
+Process Information:
+	Process ID:	0x4
+	Process Name:	
+
+Access Request Information:
+	Accesses:	DELETE
+			
+	Access Mask:	0x10000"
+Information	7/20/2015 1:05:22 PM	Microsoft-Windows-Security-Auditing	4660	File System	"An object was deleted.
+
+Subject:
+	Security ID:		S-1-5-21-3794405679-3244179209-1787853216-1156
+	Account Name:		teacher2
+	Account Domain:		GROUP2-305
+	Logon ID:		0x224336e
+
+Object:
+	Object Server:	Security
+	Handle ID:	0xa08
+
+Process Information:
+	Process ID:	0x4
+	Process Name:	
+	Transaction ID:	{00000000-0000-0000-0000-000000000000}"
+Information	7/20/2015 1:05:22 PM	Microsoft-Windows-Security-Auditing	4656	File System	"A handle to an object was requested.
+
+Subject:
+	Security ID:		S-1-5-21-3794405679-3244179209-1787853216-1156
+	Account Name:		teacher2
+	Account Domain:		GROUP2-305
+	Logon ID:		0x224336e
+
+Object:
+	Object Server:		Security
+	Object Type:		File
+	Object Name:		\Device\HarddiskVolume7\MainShare\TestShare2\New folder
+	Handle ID:		0xa08
+
+Process Information:
+	Process ID:		0x4
+	Process Name:		
+
+Access Request Information:
+	Transaction ID:		{00000000-0000-0000-0000-000000000000}
+	Accesses:		DELETE
+			ReadAttributes
+			
+	Access Mask:		0x10080
+	Privileges Used for Access Check:	-
+	Restricted SID Count:	0"
+Information	7/20/2015 1:05:22 PM	Microsoft-Windows-Security-Auditing	4656	File System	"A handle to an object was requested.
+
+Subject:
+	Security ID:		S-1-5-21-3794405679-3244179209-1787853216-1156
+	Account Name:		teacher2
+	Account Domain:		GROUP2-305
+	Logon ID:		0x224336e
+
+Object:
+	Object Server:		Security
+	Object Type:		File
+	Object Name:		\Device\HarddiskVolume7\MainShare\TestShare2\New folder
+	Handle ID:		0x7ec
+
+Process Information:
+	Process ID:		0x4
+	Process Name:		
+
+Access Request Information:
+	Transaction ID:		{00000000-0000-0000-0000-000000000000}
+	Accesses:		ReadData (or ListDirectory)
+			ReadAttributes
+			
+	Access Mask:		0x81
+	Privileges Used for Access Check:	-
+	Restricted SID Count:	0"
+Information	7/20/2015 1:05:18 PM	Microsoft-Windows-Security-Auditing	4656	File System	"A handle to an object was requested.
+
+Subject:
+	Security ID:		S-1-5-21-3794405679-3244179209-1787853216-1156
+	Account Name:		teacher2
+	Account Domain:		GROUP2-305
+	Logon ID:		0x224336e
+
+Object:
+	Object Server:		Security
+	Object Type:		File
+	Object Name:		\Device\HarddiskVolume7\MainShare\TestShare2
+	Handle ID:		0x7ec
+
+Process Information:
+	Process ID:		0x4
+	Process Name:		
+
+Access Request Information:
+	Transaction ID:		{00000000-0000-0000-0000-000000000000}
+	Accesses:		ReadData (or ListDirectory)
+			ReadAttributes
+			
+	Access Mask:		0x81
+	Privileges Used for Access Check:	-
+	Restricted SID Count:	0"
+Information	7/20/2015 1:05:14 PM	Microsoft-Windows-Security-Auditing	4656	File System	"A handle to an object was requested.
+
+Subject:
+	Security ID:		S-1-5-21-3794405679-3244179209-1787853216-1156
+	Account Name:		teacher2
+	Account Domain:		GROUP2-305
+	Logon ID:		0x224336e
+
+Object:
+	Object Server:		Security
+	Object Type:		File
+	Object Name:		\Device\HarddiskVolume7\
+	Handle ID:		0x7ec
+
+Process Information:
+	Process ID:		0x4
+	Process Name:		
+
+Access Request Information:
+	Transaction ID:		{00000000-0000-0000-0000-000000000000}
+	Accesses:		ReadData (or ListDirectory)
+			ReadAttributes
+			
+	Access Mask:		0x81
+	Privileges Used for Access Check:	-
+	Restricted SID Count:	0"
+Information	7/20/2015 1:04:59 PM	Microsoft-Windows-Security-Auditing	4624	Logon	"An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Logon Type:			3
+
+New Logon:
+	Security ID:		S-1-5-18
+	Account Name:		DIM-305$
+	Account Domain:		GROUP2-305
+	Logon ID:		0x22d30bd
+	Logon GUID:		{9F0A41D5-5052-66A1-9D7E-6F11256D89A8}
+
+Process Information:
+	Process ID:		0x0
+	Process Name:		-
+
+Network Information:
+	Workstation Name:	
+	Source Network Address:	10.10.25.248
+	Source Port:		58978
+
+Detailed Authentication Information:
+	Logon Process:		Kerberos
+	Authentication Package:	Kerberos
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested."
+Information	7/20/2015 1:04:59 PM	Microsoft-Windows-Security-Auditing	4624	Logon	"An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Logon Type:			3
+
+New Logon:
+	Security ID:		S-1-5-18
+	Account Name:		DIM-305$
+	Account Domain:		GROUP2-305
+	Logon ID:		0x22d300a
+	Logon GUID:		{9F0A41D5-5052-66A1-9D7E-6F11256D89A8}
+
+Process Information:
+	Process ID:		0x0
+	Process Name:		-
+
+Network Information:
+	Workstation Name:	
+	Source Network Address:	10.10.25.248
+	Source Port:		58975
+
+Detailed Authentication Information:
+	Logon Process:		Kerberos
+	Authentication Package:	Kerberos
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested."
+Information	7/20/2015 1:04:44 PM	Microsoft-Windows-Security-Auditing	5140	File Share	"A network share object was accessed.
+	
+Subject:
+	Security ID:		S-1-5-21-3794405679-3244179209-1787853216-1156
+	Account Name:		teacher2
+	Account Domain:		GROUP2-305
+	Logon ID:		0x224336e
+
+Network Information:	
+	Source Address:		10.10.25.243
+	Source Port:		62942
+	
+Share Name:			\\*\IPC$"
+Information	7/20/2015 1:04:44 PM	Microsoft-Windows-Security-Auditing	4656	File System	"A handle to an object was requested.
+
+Subject:
+	Security ID:		S-1-5-21-3794405679-3244179209-1787853216-1156
+	Account Name:		teacher2
+	Account Domain:		GROUP2-305
+	Logon ID:		0x224336e
+
+Object:
+	Object Server:		Security
+	Object Type:		File
+	Object Name:		\Device\HarddiskVolume7\MainShare\TestShare2
+	Handle ID:		0x234
+
+Process Information:
+	Process ID:		0x4
+	Process Name:		
+
+Access Request Information:
+	Transaction ID:		{00000000-0000-0000-0000-000000000000}
+	Accesses:		ReadData (or ListDirectory)
+			ReadAttributes
+			
+	Access Mask:		0x81
+	Privileges Used for Access Check:	-
+	Restricted SID Count:	0"
+Information	7/20/2015 1:04:43 PM	Microsoft-Windows-Security-Auditing	4656	File System	"A handle to an object was requested.
+
+Subject:
+	Security ID:		S-1-5-21-3794405679-3244179209-1787853216-1156
+	Account Name:		teacher2
+	Account Domain:		GROUP2-305
+	Logon ID:		0x224336e
+
+Object:
+	Object Server:		Security
+	Object Type:		File
+	Object Name:		\Device\HarddiskVolume7\MainShare
+	Handle ID:		0x234
+
+Process Information:
+	Process ID:		0x4
+	Process Name:		
+
+Access Request Information:
+	Transaction ID:		{00000000-0000-0000-0000-000000000000}
+	Accesses:		ReadData (or ListDirectory)
+			ReadAttributes
+			
+	Access Mask:		0x81
+	Privileges Used for Access Check:	-
+	Restricted SID Count:	0"
+Information	7/20/2015 1:04:43 PM	Microsoft-Windows-Security-Auditing	4656	File System	"A handle to an object was requested.
+
+Subject:
+	Security ID:		S-1-5-21-3794405679-3244179209-1787853216-1156
+	Account Name:		teacher2
+	Account Domain:		GROUP2-305
+	Logon ID:		0x224336e
+
+Object:
+	Object Server:		Security
+	Object Type:		File
+	Object Name:		\Device\HarddiskVolume7\
+	Handle ID:		0x234
+
+Process Information:
+	Process ID:		0x4
+	Process Name:		
+
+Access Request Information:
+	Transaction ID:		{00000000-0000-0000-0000-000000000000}
+	Accesses:		ReadData (or ListDirectory)
+			ReadAttributes
+			
+	Access Mask:		0x81
+	Privileges Used for Access Check:	-
+	Restricted SID Count:	0"
+Information	7/20/2015 1:04:42 PM	Microsoft-Windows-Security-Auditing	4656	File System	"A handle to an object was requested.
+
+Subject:
+	Security ID:		S-1-5-21-3794405679-3244179209-1787853216-1156
+	Account Name:		teacher2
+	Account Domain:		GROUP2-305
+	Logon ID:		0x224336e
+
+Object:
+	Object Server:		Security
+	Object Type:		File
+	Object Name:		\Device\HarddiskVolume7\MainShare\TestShare2\New folder
+	Handle ID:		0x82c
+
+Process Information:
+	Process ID:		0x4
+	Process Name:		
+
+Access Request Information:
+	Transaction ID:		{00000000-0000-0000-0000-000000000000}
+	Accesses:		ReadData (or ListDirectory)
+			ReadAttributes
+			
+	Access Mask:		0x81
+	Privileges Used for Access Check:	-
+	Restricted SID Count:	0"
+Information	7/20/2015 1:03:04 PM	Microsoft-Windows-Security-Auditing	5140	File Share	"A network share object was accessed.
+	
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		DIM-305$
+	Account Domain:		GROUP2-305
+	Logon ID:		0x22cb05b
+
+Network Information:	
+	Source Address:		::1
+	Source Port:		58939
+	
+Share Name:			\\*\SYSVOL"
+Information	7/20/2015 1:03:04 PM	Microsoft-Windows-Security-Auditing	4624	Logon	"An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Logon Type:			3
+
+New Logon:
+	Security ID:		S-1-5-18
+	Account Name:		DIM-305$
+	Account Domain:		GROUP2-305
+	Logon ID:		0x22cb05b
+	Logon GUID:		{2E26668D-C2B4-4FBD-95D3-9FCD293A42DB}
+
+Process Information:
+	Process ID:		0x0
+	Process Name:		-
+
+Network Information:
+	Workstation Name:	
+	Source Network Address:	::1
+	Source Port:		58939
+
+Detailed Authentication Information:
+	Logon Process:		Kerberos
+	Authentication Package:	Kerberos
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested."
+Information	7/20/2015 1:03:04 PM	Microsoft-Windows-Security-Auditing	4624	Logon	"An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Logon Type:			3
+
+New Logon:
+	Security ID:		S-1-5-18
+	Account Name:		DIM-305$
+	Account Domain:		GROUP2-305
+	Logon ID:		0x22cb03a
+	Logon GUID:		{254DA3FC-3CE4-0BD4-D151-ED09117E9E8C}
+
+Process Information:
+	Process ID:		0x0
+	Process Name:		-
+
+Network Information:
+	Workstation Name:	
+	Source Network Address:	10.10.25.248
+	Source Port:		58938
+
+Detailed Authentication Information:
+	Logon Process:		Kerberos
+	Authentication Package:	Kerberos
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested."
+Information	7/20/2015 1:03:04 PM	Microsoft-Windows-Security-Auditing	4624	Logon	"An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Logon Type:			3
+
+New Logon:
+	Security ID:		S-1-5-18
+	Account Name:		DIM-305$
+	Account Domain:		GROUP2-305
+	Logon ID:		0x22cafef
+	Logon GUID:		{51A42278-3158-F492-8A4D-ECCC1CA0039F}
+
+Process Information:
+	Process ID:		0x0
+	Process Name:		-
+
+Network Information:
+	Workstation Name:	
+	Source Network Address:	::1
+	Source Port:		0
+
+Detailed Authentication Information:
+	Logon Process:		Kerberos
+	Authentication Package:	Kerberos
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested."
+Information	7/20/2015 1:03:04 PM	Microsoft-Windows-Security-Auditing	4624	Logon	"An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Logon Type:			3
+
+New Logon:
+	Security ID:		S-1-5-18
+	Account Name:		DIM-305$
+	Account Domain:		GROUP2-305
+	Logon ID:		0x22caf32
+	Logon GUID:		{254DA3FC-3CE4-0BD4-D151-ED09117E9E8C}
+
+Process Information:
+	Process ID:		0x0
+	Process Name:		-
+
+Network Information:
+	Workstation Name:	
+	Source Network Address:	10.10.25.248
+	Source Port:		58937
+
+Detailed Authentication Information:
+	Logon Process:		Kerberos
+	Authentication Package:	Kerberos
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested."
+Information	7/20/2015 1:01:39 PM	Microsoft-Windows-Security-Auditing	4656	File System	"A handle to an object was requested.
+
+Subject:
+	Security ID:		S-1-5-21-3794405679-3244179209-1787853216-1156
+	Account Name:		teacher2
+	Account Domain:		GROUP2-305
+	Logon ID:		0x224336e
+
+Object:
+	Object Server:		Security
+	Object Type:		File
+	Object Name:		\Device\HarddiskVolume7\MainShare\TestShare2
+	Handle ID:		0xa08
+
+Process Information:
+	Process ID:		0x4
+	Process Name:		
+
+Access Request Information:
+	Transaction ID:		{00000000-0000-0000-0000-000000000000}
+	Accesses:		ReadData (or ListDirectory)
+			ReadAttributes
+			
+	Access Mask:		0x81
+	Privileges Used for Access Check:	-
+	Restricted SID Count:	0"
+Information	7/20/2015 1:01:39 PM	Microsoft-Windows-Security-Auditing	4656	File System	"A handle to an object was requested.
+
+Subject:
+	Security ID:		S-1-5-21-3794405679-3244179209-1787853216-1156
+	Account Name:		teacher2
+	Account Domain:		GROUP2-305
+	Logon ID:		0x224336e
+
+Object:
+	Object Server:		Security
+	Object Type:		File
+	Object Name:		\Device\HarddiskVolume7\MainShare
+	Handle ID:		0x28c
+
+Process Information:
+	Process ID:		0x4
+	Process Name:		
+
+Access Request Information:
+	Transaction ID:		{00000000-0000-0000-0000-000000000000}
+	Accesses:		ReadData (or ListDirectory)
+			ReadAttributes
+			
+	Access Mask:		0x81
+	Privileges Used for Access Check:	-
+	Restricted SID Count:	0"
+Information	7/20/2015 1:01:39 PM	Microsoft-Windows-Security-Auditing	4656	File System	"A handle to an object was requested.
+
+Subject:
+	Security ID:		S-1-5-21-3794405679-3244179209-1787853216-1156
+	Account Name:		teacher2
+	Account Domain:		GROUP2-305
+	Logon ID:		0x224336e
+
+Object:
+	Object Server:		Security
+	Object Type:		File
+	Object Name:		\Device\HarddiskVolume7\RecoveryBin\InProgress
+	Handle ID:		0x28c
+
+Process Information:
+	Process ID:		0x4
+	Process Name:		
+
+Access Request Information:
+	Transaction ID:		{00000000-0000-0000-0000-000000000000}
+	Accesses:		SYNCHRONIZE
+			WriteData (or AddFile)
+			
+	Access Mask:		0x100002
+	Privileges Used for Access Check:	-
+	Restricted SID Count:	0"
+Information	7/20/2015 1:01:39 PM	Microsoft-Windows-Security-Auditing	4663	File System	"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-21-3794405679-3244179209-1787853216-1156
+	Account Name:		teacher2
+	Account Domain:		GROUP2-305
+	Logon ID:		0x224336e
+
+Object:
+	Object Server:	Security
+	Object Type:	File
+	Object Name:	\Device\HarddiskVolume7\RecoveryBin\InProgress
+	Handle ID:	0x28c
+
+Process Information:
+	Process ID:	0x4
+	Process Name:	
+
+Access Request Information:
+	Accesses:	WriteData (or AddFile)
+			
+	Access Mask:	0x2"
+Information	7/20/2015 1:01:39 PM	Microsoft-Windows-Security-Auditing	4659	File System	"A handle to an object was requested with intent to delete.
+
+Subject:
+	Security ID:		S-1-5-21-3794405679-3244179209-1787853216-1156
+	Account Name:		teacher2
+	Account Domain:		GROUP2-305
+	Logon ID:		0x224336e
+
+Object:
+	Object Server:	Security
+	Object Type:	File
+	Object Name:	\Device\HarddiskVolume7\MainShare\TestShare2\Enable Shadow Volume Copy on Share Drive.doc
+	Handle ID:	0x0
+
+Process Information:
+	Process ID:	0x4
+
+Access Request Information:
+	Transaction ID:	{00000000-0000-0000-0000-000000000000}
+	Accesses:	DELETE
+			ReadAttributes
+			
+	Access Mask:	0x10080
+	Privileges Used for Access Check:	-"
+Information	7/20/2015 1:01:39 PM	Microsoft-Windows-Security-Auditing	4656	File System	"A handle to an object was requested.
+
+Subject:
+	Security ID:		S-1-5-21-3794405679-3244179209-1787853216-1156
+	Account Name:		teacher2
+	Account Domain:		GROUP2-305
+	Logon ID:		0x224336e
+
+Object:
+	Object Server:		Security
+	Object Type:		File
+	Object Name:		\Device\HarddiskVolume7\MainShare\TestShare2\Enable Shadow Volume Copy on Share Drive.doc
+	Handle ID:		0x28c
+
+Process Information:
+	Process ID:		0x4
+	Process Name:		
+
+Access Request Information:
+	Transaction ID:		{00000000-0000-0000-0000-000000000000}
+	Accesses:		DELETE
+			ReadAttributes
+			
+	Access Mask:		0x10080
+	Privileges Used for Access Check:	-
+	Restricted SID Count:	0"
+Information	7/20/2015 1:00:34 PM	Microsoft-Windows-Security-Auditing	4663	File System	"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-21-3794405679-3244179209-1787853216-1156
+	Account Name:		teacher2
+	Account Domain:		GROUP2-305
+	Logon ID:		0x224336e
+
+Object:
+	Object Server:	Security
+	Object Type:	File
+	Object Name:	\Device\HarddiskVolume7\MainShare\TestShare2\Enable Shadow Volume Copy on Share Drive.doc
+	Handle ID:	0x7ec
+
+Process Information:
+	Process ID:	0x4
+	Process Name:	
+
+Access Request Information:
+	Accesses:	ReadData (or ListDirectory)
+			
+	Access Mask:	0x1"
+Information	7/20/2015 1:00:34 PM	Microsoft-Windows-Security-Auditing	4656	File System	"A handle to an object was requested.
+
+Subject:
+	Security ID:		S-1-5-21-3794405679-3244179209-1787853216-1156
+	Account Name:		teacher2
+	Account Domain:		GROUP2-305
+	Logon ID:		0x224336e
+
+Object:
+	Object Server:		Security
+	Object Type:		File
+	Object Name:		\Device\HarddiskVolume7\MainShare\TestShare2\Enable Shadow Volume Copy on Share Drive.doc
+	Handle ID:		0x7ec
+
+Process Information:
+	Process ID:		0x4
+	Process Name:		
+
+Access Request Information:
+	Transaction ID:		{00000000-0000-0000-0000-000000000000}
+	Accesses:		READ_CONTROL
+			ReadData (or ListDirectory)
+			ReadEA
+			ReadAttributes
+			
+	Access Mask:		0x20089
+	Privileges Used for Access Check:	-
+	Restricted SID Count:	0"
+Information	7/20/2015 1:00:34 PM	Microsoft-Windows-Security-Auditing	4656	File System	"A handle to an object was requested.
+
+Subject:
+	Security ID:		S-1-5-21-3794405679-3244179209-1787853216-1156
+	Account Name:		teacher2
+	Account Domain:		GROUP2-305
+	Logon ID:		0x224336e
+
+Object:
+	Object Server:		Security
+	Object Type:		File
+	Object Name:		\Device\HarddiskVolume7\MainShare\TestShare2
+	Handle ID:		0x7ec
+
+Process Information:
+	Process ID:		0x4
+	Process Name:		
+
+Access Request Information:
+	Transaction ID:		{00000000-0000-0000-0000-000000000000}
+	Accesses:		ReadData (or ListDirectory)
+			ReadAttributes
+			
+	Access Mask:		0x81
+	Privileges Used for Access Check:	-
+	Restricted SID Count:	0"
+Information	7/20/2015 1:00:34 PM	Microsoft-Windows-Security-Auditing	4656	File System	"A handle to an object was requested.
+
+Subject:
+	Security ID:		S-1-5-21-3794405679-3244179209-1787853216-1156
+	Account Name:		teacher2
+	Account Domain:		GROUP2-305
+	Logon ID:		0x224336e
+
+Object:
+	Object Server:		Security
+	Object Type:		File
+	Object Name:		\Device\HarddiskVolume7\MainShare
+	Handle ID:		0x7ec
+
+Process Information:
+	Process ID:		0x4
+	Process Name:		
+
+Access Request Information:
+	Transaction ID:		{00000000-0000-0000-0000-000000000000}
+	Accesses:		ReadData (or ListDirectory)
+			ReadAttributes
+			
+	Access Mask:		0x81
+	Privileges Used for Access Check:	-
+	Restricted SID Count:	0"
+Information	7/20/2015 1:00:34 PM	Microsoft-Windows-Security-Auditing	4656	File System	"A handle to an object was requested.
+
+Subject:
+	Security ID:		S-1-5-21-3794405679-3244179209-1787853216-1156
+	Account Name:		teacher2
+	Account Domain:		GROUP2-305
+	Logon ID:		0x224336e
+
+Object:
+	Object Server:		Security
+	Object Type:		File
+	Object Name:		\Device\HarddiskVolume7\
+	Handle ID:		0x7ec
+
+Process Information:
+	Process ID:		0x4
+	Process Name:		
+
+Access Request Information:
+	Transaction ID:		{00000000-0000-0000-0000-000000000000}
+	Accesses:		ReadData (or ListDirectory)
+			ReadAttributes
+			
+	Access Mask:		0x81
+	Privileges Used for Access Check:	-
+	Restricted SID Count:	0"
+Information	7/20/2015 1:00:34 PM	Microsoft-Windows-Security-Auditing	4656	File System	"A handle to an object was requested.
+
+Subject:
+	Security ID:		S-1-5-21-3794405679-3244179209-1787853216-1156
+	Account Name:		teacher2
+	Account Domain:		GROUP2-305
+	Logon ID:		0x224336e
+
+Object:
+	Object Server:		Security
+	Object Type:		File
+	Object Name:		\Device\HarddiskVolume7\MainShare\TestShare2\Enable Shadow Volume Copy on Share Drive.doc
+	Handle ID:		0x7ec
+
+Process Information:
+	Process ID:		0x4
+	Process Name:		
+
+Access Request Information:
+	Transaction ID:		{00000000-0000-0000-0000-000000000000}
+	Accesses:		DELETE
+			ReadAttributes
+			
+	Access Mask:		0x10080
+	Privileges Used for Access Check:	-
+	Restricted SID Count:	0"
+Information	7/20/2015 1:00:34 PM	Microsoft-Windows-Security-Auditing	4656	File System	"A handle to an object was requested.
+
+Subject:
+	Security ID:		S-1-5-21-3794405679-3244179209-1787853216-1156
+	Account Name:		teacher2
+	Account Domain:		GROUP2-305
+	Logon ID:		0x224336e
+
+Object:
+	Object Server:		Security
+	Object Type:		File
+	Object Name:		\Device\HarddiskVolume7\
+	Handle ID:		0x7ec
+
+Process Information:
+	Process ID:		0x4
+	Process Name:		
+
+Access Request Information:
+	Transaction ID:		{00000000-0000-0000-0000-000000000000}
+	Accesses:		ReadData (or ListDirectory)
+			ReadAttributes
+			
+	Access Mask:		0x81
+	Privileges Used for Access Check:	-
+	Restricted SID Count:	0"
+Information	7/20/2015 1:00:08 PM	Microsoft-Windows-Security-Auditing	5140	File Share	"A network share object was accessed.
+	
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		DIM-305$
+	Account Domain:		GROUP2-305
+	Logon ID:		0x22be004
+
+Network Information:	
+	Source Address:		::1
+	Source Port:		58870
+	
+Share Name:			\\*\SYSVOL"
+Information	7/20/2015 1:00:08 PM	Microsoft-Windows-Security-Auditing	4624	Logon	"An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Logon Type:			3
+
+New Logon:
+	Security ID:		S-1-5-18
+	Account Name:		DIM-305$
+	Account Domain:		GROUP2-305
+	Logon ID:		0x22be004
+	Logon GUID:		{2E26668D-C2B4-4FBD-95D3-9FCD293A42DB}
+
+Process Information:
+	Process ID:		0x0
+	Process Name:		-
+
+Network Information:
+	Workstation Name:	
+	Source Network Address:	::1
+	Source Port:		58870
+
+Detailed Authentication Information:
+	Logon Process:		Kerberos
+	Authentication Package:	Kerberos
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested."
+Information	7/20/2015 12:59:59 PM	Microsoft-Windows-Security-Auditing	4624	Logon	"An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Logon Type:			3
+
+New Logon:
+	Security ID:		S-1-5-18
+	Account Name:		DIM-305$
+	Account Domain:		GROUP2-305
+	Logon ID:		0x22bcc8a
+	Logon GUID:		{9F0A41D5-5052-66A1-9D7E-6F11256D89A8}
+
+Process Information:
+	Process ID:		0x0
+	Process Name:		-
+
+Network Information:
+	Workstation Name:	
+	Source Network Address:	10.10.25.248
+	Source Port:		58864
+
+Detailed Authentication Information:
+	Logon Process:		Kerberos
+	Authentication Package:	Kerberos
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested."
+Information	7/20/2015 12:59:59 PM	Microsoft-Windows-Security-Auditing	4624	Logon	"An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Logon Type:			3
+
+New Logon:
+	Security ID:		S-1-5-18
+	Account Name:		DIM-305$
+	Account Domain:		GROUP2-305
+	Logon ID:		0x22bca6e
+	Logon GUID:		{9F0A41D5-5052-66A1-9D7E-6F11256D89A8}
+
+Process Information:
+	Process ID:		0x0
+	Process Name:		-
+
+Network Information:
+	Workstation Name:	
+	Source Network Address:	10.10.25.248
+	Source Port:		58862
+
+Detailed Authentication Information:
+	Logon Process:		Kerberos
+	Authentication Package:	Kerberos
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested."
+Information	7/20/2015 12:59:30 PM	Microsoft-Windows-Security-Auditing	4663	File System	"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-21-3794405679-3244179209-1787853216-1156
+	Account Name:		teacher2
+	Account Domain:		GROUP2-305
+	Logon ID:		0x224336e
+
+Object:
+	Object Server:	Security
+	Object Type:	File
+	Object Name:	\Device\HarddiskVolume7\MainShare\TestShare2\Enable Shadow Volume Copy on Share Drive.doc
+	Handle ID:	0xa14
+
+Process Information:
+	Process ID:	0x4
+	Process Name:	
+
+Access Request Information:
+	Accesses:	ReadData (or ListDirectory)
+			
+	Access Mask:	0x1"
+Information	7/20/2015 12:59:30 PM	Microsoft-Windows-Security-Auditing	4656	File System	"A handle to an object was requested.
+
+Subject:
+	Security ID:		S-1-5-21-3794405679-3244179209-1787853216-1156
+	Account Name:		teacher2
+	Account Domain:		GROUP2-305
+	Logon ID:		0x224336e
+
+Object:
+	Object Server:		Security
+	Object Type:		File
+	Object Name:		\Device\HarddiskVolume7\MainShare\TestShare2\Enable Shadow Volume Copy on Share Drive.doc
+	Handle ID:		0xa14
+
+Process Information:
+	Process ID:		0x4
+	Process Name:		
+
+Access Request Information:
+	Transaction ID:		{00000000-0000-0000-0000-000000000000}
+	Accesses:		READ_CONTROL
+			ReadData (or ListDirectory)
+			ReadEA
+			ReadAttributes
+			
+	Access Mask:		0x20089
+	Privileges Used for Access Check:	-
+	Restricted SID Count:	0"
+Information	7/20/2015 12:59:30 PM	Microsoft-Windows-Security-Auditing	4656	File System	"A handle to an object was requested.
+
+Subject:
+	Security ID:		S-1-5-21-3794405679-3244179209-1787853216-1156
+	Account Name:		teacher2
+	Account Domain:		GROUP2-305
+	Logon ID:		0x224336e
+
+Object:
+	Object Server:		Security
+	Object Type:		File
+	Object Name:		\Device\HarddiskVolume7\
+	Handle ID:		0xa14
+
+Process Information:
+	Process ID:		0x4
+	Process Name:		
+
+Access Request Information:
+	Transaction ID:		{00000000-0000-0000-0000-000000000000}
+	Accesses:		ReadData (or ListDirectory)
+			ReadAttributes
+			
+	Access Mask:		0x81
+	Privileges Used for Access Check:	-
+	Restricted SID Count:	0"
+Information	7/20/2015 12:58:36 PM	Microsoft-Windows-Security-Auditing	4663	File System	"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-21-3794405679-3244179209-1787853216-1156
+	Account Name:		teacher2
+	Account Domain:		GROUP2-305
+	Logon ID:		0x224336e
+
+Object:
+	Object Server:	Security
+	Object Type:	File
+	Object Name:	\Device\HarddiskVolume7\MainShare\TestShare2\Enable Shadow Volume Copy on Share Drive.doc
+	Handle ID:	0xa2c
+
+Process Information:
+	Process ID:	0x4
+	Process Name:	
+
+Access Request Information:
+	Accesses:	ReadData (or ListDirectory)
+			
+	Access Mask:	0x1"
+Information	7/20/2015 12:58:36 PM	Microsoft-Windows-Security-Auditing	4656	File System	"A handle to an object was requested.
+
+Subject:
+	Security ID:		S-1-5-21-3794405679-3244179209-1787853216-1156
+	Account Name:		teacher2
+	Account Domain:		GROUP2-305
+	Logon ID:		0x224336e
+
+Object:
+	Object Server:		Security
+	Object Type:		File
+	Object Name:		\Device\HarddiskVolume7\MainShare\TestShare2\Enable Shadow Volume Copy on Share Drive.doc
+	Handle ID:		0xa2c
+
+Process Information:
+	Process ID:		0x4
+	Process Name:		
+
+Access Request Information:
+	Transaction ID:		{00000000-0000-0000-0000-000000000000}
+	Accesses:		READ_CONTROL
+			ReadData (or ListDirectory)
+			ReadEA
+			ReadAttributes
+			
+	Access Mask:		0x20089
+	Privileges Used for Access Check:	-
+	Restricted SID Count:	0"
+Information	7/20/2015 12:58:08 PM	Microsoft-Windows-Security-Auditing	5140	File Share	"A network share object was accessed.
+	
+Subject:
+	Security ID:		S-1-5-21-3794405679-3244179209-1787853216-1145
+	Account Name:		309-20$
+	Account Domain:		GROUP2-305
+	Logon ID:		0x22b2bc3
+
+Network Information:	
+	Source Address:		10.10.25.243
+	Source Port:		57658
+	
+Share Name:			\\*\IPC$"
+Information	7/20/2015 12:58:07 PM	Microsoft-Windows-Security-Auditing	4624	Logon	"An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Logon Type:			3
+
+New Logon:
+	Security ID:		S-1-5-21-3794405679-3244179209-1787853216-1145
+	Account Name:		309-20$
+	Account Domain:		GROUP2-305
+	Logon ID:		0x22b2bc3
+	Logon GUID:		{75A388E3-8ABE-17AB-0211-0F5B6E950D4F}
+
+Process Information:
+	Process ID:		0x0
+	Process Name:		-
+
+Network Information:
+	Workstation Name:	
+	Source Network Address:	10.10.25.243
+	Source Port:		57658
+
+Detailed Authentication Information:
+	Logon Process:		Kerberos
+	Authentication Package:	Kerberos
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested."
+Information	7/20/2015 12:58:00 PM	Microsoft-Windows-Security-Auditing	5140	File Share	"A network share object was accessed.
+	
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		DIM-305$
+	Account Domain:		GROUP2-305
+	Logon ID:		0x22b1f64
+
+Network Information:	
+	Source Address:		::1
+	Source Port:		58816
+	
+Share Name:			\\*\SYSVOL"
+Information	7/20/2015 12:58:00 PM	Microsoft-Windows-Security-Auditing	4624	Logon	"An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Logon Type:			3
+
+New Logon:
+	Security ID:		S-1-5-18
+	Account Name:		DIM-305$
+	Account Domain:		GROUP2-305
+	Logon ID:		0x22b1f64
+	Logon GUID:		{2E26668D-C2B4-4FBD-95D3-9FCD293A42DB}
+
+Process Information:
+	Process ID:		0x0
+	Process Name:		-
+
+Network Information:
+	Workstation Name:	
+	Source Network Address:	::1
+	Source Port:		58816
+
+Detailed Authentication Information:
+	Logon Process:		Kerberos
+	Authentication Package:	Kerberos
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested."
+Information	7/20/2015 12:58:00 PM	Microsoft-Windows-Security-Auditing	4624	Logon	"An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Logon Type:			3
+
+New Logon:
+	Security ID:		S-1-5-18
+	Account Name:		DIM-305$
+	Account Domain:		GROUP2-305
+	Logon ID:		0x22b1f44
+	Logon GUID:		{254DA3FC-3CE4-0BD4-D151-ED09117E9E8C}
+
+Process Information:
+	Process ID:		0x0
+	Process Name:		-
+
+Network Information:
+	Workstation Name:	
+	Source Network Address:	10.10.25.248
+	Source Port:		58815
+
+Detailed Authentication Information:
+	Logon Process:		Kerberos
+	Authentication Package:	Kerberos
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested."
+Information	7/20/2015 12:58:00 PM	Microsoft-Windows-Security-Auditing	4624	Logon	"An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Logon Type:			3
+
+New Logon:
+	Security ID:		S-1-5-18
+	Account Name:		DIM-305$
+	Account Domain:		GROUP2-305
+	Logon ID:		0x22b1ef9
+	Logon GUID:		{A5AD8E1B-D9E2-60E4-2A11-4527CC3E8A81}
+
+Process Information:
+	Process ID:		0x0
+	Process Name:		-
+
+Network Information:
+	Workstation Name:	
+	Source Network Address:	::1
+	Source Port:		0
+
+Detailed Authentication Information:
+	Logon Process:		Kerberos
+	Authentication Package:	Kerberos
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested."
+Information	7/20/2015 12:58:00 PM	Microsoft-Windows-Security-Auditing	4624	Logon	"An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Logon Type:			3
+
+New Logon:
+	Security ID:		S-1-5-18
+	Account Name:		DIM-305$
+	Account Domain:		GROUP2-305
+	Logon ID:		0x22b1e3c
+	Logon GUID:		{254DA3FC-3CE4-0BD4-D151-ED09117E9E8C}
+
+Process Information:
+	Process ID:		0x0
+	Process Name:		-
+
+Network Information:
+	Workstation Name:	
+	Source Network Address:	10.10.25.248
+	Source Port:		58814
+
+Detailed Authentication Information:
+	Logon Process:		Kerberos
+	Authentication Package:	Kerberos
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested."
+Information	7/20/2015 12:57:58 PM	Microsoft-Windows-Security-Auditing	4624	Logon	"An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Logon Type:			3
+
+New Logon:
+	Security ID:		S-1-5-18
+	Account Name:		DIM-305$
+	Account Domain:		GROUP2-305
+	Logon ID:		0x22b199f
+	Logon GUID:		{A5AD8E1B-D9E2-60E4-2A11-4527CC3E8A81}
+
+Process Information:
+	Process ID:		0x0
+	Process Name:		-
+
+Network Information:
+	Workstation Name:	
+	Source Network Address:	::1
+	Source Port:		58812
+
+Detailed Authentication Information:
+	Logon Process:		Kerberos
+	Authentication Package:	Kerberos
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested."
+Information	7/20/2015 12:57:39 PM	Microsoft-Windows-Security-Auditing	4656	File System	"A handle to an object was requested.
+
+Subject:
+	Security ID:		S-1-5-21-3794405679-3244179209-1787853216-1156
+	Account Name:		teacher2
+	Account Domain:		GROUP2-305
+	Logon ID:		0x224336e
+
+Object:
+	Object Server:		Security
+	Object Type:		File
+	Object Name:		\Device\HarddiskVolume7\MainShare\TestShare2
+	Handle ID:		0x868
+
+Process Information:
+	Process ID:		0x4
+	Process Name:		
+
+Access Request Information:
+	Transaction ID:		{00000000-0000-0000-0000-000000000000}
+	Accesses:		ReadData (or ListDirectory)
+			ReadAttributes
+			
+	Access Mask:		0x81
+	Privileges Used for Access Check:	-
+	Restricted SID Count:	0"
+Information	7/20/2015 12:57:39 PM	Microsoft-Windows-Security-Auditing	4656	File System	"A handle to an object was requested.
+
+Subject:
+	Security ID:		S-1-5-21-3794405679-3244179209-1787853216-1156
+	Account Name:		teacher2
+	Account Domain:		GROUP2-305
+	Logon ID:		0x224336e
+
+Object:
+	Object Server:		Security
+	Object Type:		File
+	Object Name:		\Device\HarddiskVolume7\MainShare
+	Handle ID:		0x868
+
+Process Information:
+	Process ID:		0x4
+	Process Name:		
+
+Access Request Information:
+	Transaction ID:		{00000000-0000-0000-0000-000000000000}
+	Accesses:		ReadData (or ListDirectory)
+			ReadAttributes
+			
+	Access Mask:		0x81
+	Privileges Used for Access Check:	-
+	Restricted SID Count:	0"
+Information	7/20/2015 12:57:39 PM	Microsoft-Windows-Security-Auditing	4656	File System	"A handle to an object was requested.
+
+Subject:
+	Security ID:		S-1-5-21-3794405679-3244179209-1787853216-1156
+	Account Name:		teacher2
+	Account Domain:		GROUP2-305
+	Logon ID:		0x224336e
+
+Object:
+	Object Server:		Security
+	Object Type:		File
+	Object Name:		\Device\HarddiskVolume7\
+	Handle ID:		0x868
+
+Process Information:
+	Process ID:		0x4
+	Process Name:		
+
+Access Request Information:
+	Transaction ID:		{00000000-0000-0000-0000-000000000000}
+	Accesses:		ReadData (or ListDirectory)
+			ReadAttributes
+			
+	Access Mask:		0x81
+	Privileges Used for Access Check:	-
+	Restricted SID Count:	0"
+Information	7/20/2015 12:57:37 PM	Microsoft-Windows-Security-Auditing	4656	File System	"A handle to an object was requested.
+
+Subject:
+	Security ID:		S-1-5-21-3794405679-3244179209-1787853216-1156
+	Account Name:		teacher2
+	Account Domain:		GROUP2-305
+	Logon ID:		0x224336e
+
+Object:
+	Object Server:		Security
+	Object Type:		File
+	Object Name:		\Device\HarddiskVolume7\MainShare\TestShare2
+	Handle ID:		0x7b4
+
+Process Information:
+	Process ID:		0x4
+	Process Name:		
+
+Access Request Information:
+	Transaction ID:		{00000000-0000-0000-0000-000000000000}
+	Accesses:		ReadData (or ListDirectory)
+			ReadAttributes
+			
+	Access Mask:		0x81
+	Privileges Used for Access Check:	-
+	Restricted SID Count:	0"
+Information	7/20/2015 12:57:36 PM	Microsoft-Windows-Security-Auditing	4656	File System	"A handle to an object was requested.
+
+Subject:
+	Security ID:		S-1-5-21-3794405679-3244179209-1787853216-1156
+	Account Name:		teacher2
+	Account Domain:		GROUP2-305
+	Logon ID:		0x224336e
+
+Object:
+	Object Server:		Security
+	Object Type:		File
+	Object Name:		\Device\HarddiskVolume7\MainShare
+	Handle ID:		0xa10
+
+Process Information:
+	Process ID:		0x4
+	Process Name:		
+
+Access Request Information:
+	Transaction ID:		{00000000-0000-0000-0000-000000000000}
+	Accesses:		ReadData (or ListDirectory)
+			ReadAttributes
+			
+	Access Mask:		0x81
+	Privileges Used for Access Check:	-
+	Restricted SID Count:	0"
+Information	7/20/2015 12:57:36 PM	Microsoft-Windows-Security-Auditing	4656	File System	"A handle to an object was requested.
+
+Subject:
+	Security ID:		S-1-5-21-3794405679-3244179209-1787853216-1156
+	Account Name:		teacher2
+	Account Domain:		GROUP2-305
+	Logon ID:		0x224336e
+
+Object:
+	Object Server:		Security
+	Object Type:		File
+	Object Name:		\Device\HarddiskVolume7\MainShare\TestShare2
+	Handle ID:		0x7b4
+
+Process Information:
+	Process ID:		0x4
+	Process Name:		
+
+Access Request Information:
+	Transaction ID:		{00000000-0000-0000-0000-000000000000}
+	Accesses:		ReadData (or ListDirectory)
+			ReadAttributes
+			
+	Access Mask:		0x81
+	Privileges Used for Access Check:	-
+	Restricted SID Count:	0"
+Information	7/20/2015 12:57:36 PM	Microsoft-Windows-Security-Auditing	4656	File System	"A handle to an object was requested.
+
+Subject:
+	Security ID:		S-1-5-21-3794405679-3244179209-1787853216-1156
+	Account Name:		teacher2
+	Account Domain:		GROUP2-305
+	Logon ID:		0x224336e
+
+Object:
+	Object Server:		Security
+	Object Type:		File
+	Object Name:		\Device\HarddiskVolume7\
+	Handle ID:		0xa10
+
+Process Information:
+	Process ID:		0x4
+	Process Name:		
+
+Access Request Information:
+	Transaction ID:		{00000000-0000-0000-0000-000000000000}
+	Accesses:		ReadData (or ListDirectory)
+			ReadAttributes
+			
+	Access Mask:		0x81
+	Privileges Used for Access Check:	-
+	Restricted SID Count:	0"
+Information	7/20/2015 12:57:36 PM	Microsoft-Windows-Security-Auditing	4656	File System	"A handle to an object was requested.
+
+Subject:
+	Security ID:		S-1-5-21-3794405679-3244179209-1787853216-1156
+	Account Name:		teacher2
+	Account Domain:		GROUP2-305
+	Logon ID:		0x224336e
+
+Object:
+	Object Server:		Security
+	Object Type:		File
+	Object Name:		\Device\HarddiskVolume7\MainShare\TestShare2
+	Handle ID:		0x7b4
+
+Process Information:
+	Process ID:		0x4
+	Process Name:		
+
+Access Request Information:
+	Transaction ID:		{00000000-0000-0000-0000-000000000000}
+	Accesses:		ReadData (or ListDirectory)
+			ReadAttributes
+			
+	Access Mask:		0x81
+	Privileges Used for Access Check:	-
+	Restricted SID Count:	0"
+Information	7/20/2015 12:57:35 PM	Microsoft-Windows-Security-Auditing	4624	Logon	"An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Logon Type:			3
+
+New Logon:
+	Security ID:		S-1-5-18
+	Account Name:		DIM-305$
+	Account Domain:		GROUP2-305
+	Logon ID:		0x22aed62
+	Logon GUID:		{254DA3FC-3CE4-0BD4-D151-ED09117E9E8C}
+
+Process Information:
+	Process ID:		0x0
+	Process Name:		-
+
+Network Information:
+	Workstation Name:	
+	Source Network Address:	10.10.25.248
+	Source Port:		58809
+
+Detailed Authentication Information:
+	Logon Process:		Kerberos
+	Authentication Package:	Kerberos
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested."
+Information	7/20/2015 12:57:35 PM	Microsoft-Windows-Security-Auditing	4663	File System	"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-21-3794405679-3244179209-1787853216-1156
+	Account Name:		teacher2
+	Account Domain:		GROUP2-305
+	Logon ID:		0x224336e
+
+Object:
+	Object Server:	Security
+	Object Type:	File
+	Object Name:	\Device\HarddiskVolume7\MainShare\TestShare2\~$US Fix for Windows 8.1.doc
+	Handle ID:	0x280
+
+Process Information:
+	Process ID:	0x4
+	Process Name:	
+
+Access Request Information:
+	Accesses:	DELETE
+			
+	Access Mask:	0x10000"
+Information	7/20/2015 12:57:35 PM	Microsoft-Windows-Security-Auditing	4660	File System	"An object was deleted.
+
+Subject:
+	Security ID:		S-1-5-21-3794405679-3244179209-1787853216-1156
+	Account Name:		teacher2
+	Account Domain:		GROUP2-305
+	Logon ID:		0x224336e
+
+Object:
+	Object Server:	Security
+	Handle ID:	0x280
+
+Process Information:
+	Process ID:	0x4
+	Process Name:	
+	Transaction ID:	{00000000-0000-0000-0000-000000000000}"
+Information	7/20/2015 12:57:35 PM	Microsoft-Windows-Security-Auditing	4656	File System	"A handle to an object was requested.
+
+Subject:
+	Security ID:		S-1-5-21-3794405679-3244179209-1787853216-1156
+	Account Name:		teacher2
+	Account Domain:		GROUP2-305
+	Logon ID:		0x224336e
+
+Object:
+	Object Server:		Security
+	Object Type:		File
+	Object Name:		\Device\HarddiskVolume7\MainShare\TestShare2
+	Handle ID:		0xa10
+
+Process Information:
+	Process ID:		0x4
+	Process Name:		
+
+Access Request Information:
+	Transaction ID:		{00000000-0000-0000-0000-000000000000}
+	Accesses:		ReadData (or ListDirectory)
+			ReadAttributes
+			
+	Access Mask:		0x81
+	Privileges Used for Access Check:	-
+	Restricted SID Count:	0"
+Information	7/20/2015 12:57:35 PM	Microsoft-Windows-Security-Auditing	4656	File System	"A handle to an object was requested.
+
+Subject:
+	Security ID:		S-1-5-21-3794405679-3244179209-1787853216-1156
+	Account Name:		teacher2
+	Account Domain:		GROUP2-305
+	Logon ID:		0x224336e
+
+Object:
+	Object Server:		Security
+	Object Type:		File
+	Object Name:		\Device\HarddiskVolume7\MainShare\TestShare2\~$US Fix for Windows 8.1.doc
+	Handle ID:		0x280
+
+Process Information:
+	Process ID:		0x4
+	Process Name:		
+
+Access Request Information:
+	Transaction ID:		{00000000-0000-0000-0000-000000000000}
+	Accesses:		DELETE
+			ReadAttributes
+			
+	Access Mask:		0x10080
+	Privileges Used for Access Check:	-
+	Restricted SID Count:	0"
+Information	7/20/2015 12:57:35 PM	Microsoft-Windows-Security-Auditing	5140	File Share	"A network share object was accessed.
+	
+Subject:
+	Security ID:		S-1-5-21-3794405679-3244179209-1787853216-1156
+	Account Name:		teacher2
+	Account Domain:		GROUP2-305
+	Logon ID:		0x224336e
+
+Network Information:	
+	Source Address:		10.10.25.243
+	Source Port:		62942
+	
+Share Name:			\\*\IPC$"
+Information	7/20/2015 12:57:34 PM	Microsoft-Windows-Security-Auditing	4656	File System	"A handle to an object was requested.
+
+Subject:
+	Security ID:		S-1-5-21-3794405679-3244179209-1787853216-1156
+	Account Name:		teacher2
+	Account Domain:		GROUP2-305
+	Logon ID:		0x224336e
+
+Object:
+	Object Server:		Security
+	Object Type:		File
+	Object Name:		\Device\HarddiskVolume7\MainShare
+	Handle ID:		0xa54
+
+Process Information:
+	Process ID:		0x4
+	Process Name:		
+
+Access Request Information:
+	Transaction ID:		{00000000-0000-0000-0000-000000000000}
+	Accesses:		ReadData (or ListDirectory)
+			ReadAttributes
+			
+	Access Mask:		0x81
+	Privileges Used for Access Check:	-
+	Restricted SID Count:	0"
+Information	7/20/2015 12:57:34 PM	Microsoft-Windows-Security-Auditing	4656	File System	"A handle to an object was requested.
+
+Subject:
+	Security ID:		S-1-5-21-3794405679-3244179209-1787853216-1156
+	Account Name:		teacher2
+	Account Domain:		GROUP2-305
+	Logon ID:		0x224336e
+
+Object:
+	Object Server:		Security
+	Object Type:		File
+	Object Name:		\Device\HarddiskVolume7\MainShare\TestShare2\~$US Fix for Windows 8.1.doc
+	Handle ID:		0x280
+
+Process Information:
+	Process ID:		0x4
+	Process Name:		
+
+Access Request Information:
+	Transaction ID:		{00000000-0000-0000-0000-000000000000}
+	Accesses:		READ_CONTROL
+			ReadData (or ListDirectory)
+			WriteData (or AddFile)
+			AppendData (or AddSubdirectory or CreatePipeInstance)
+			ReadEA
+			WriteEA
+			ReadAttributes
+			WriteAttributes
+			
+	Access Mask:		0x2019f
+	Privileges Used for Access Check:	-
+	Restricted SID Count:	0"
+Information	7/20/2015 12:57:34 PM	Microsoft-Windows-Security-Auditing	4656	File System	"A handle to an object was requested.
+
+Subject:
+	Security ID:		S-1-5-21-3794405679-3244179209-1787853216-1156
+	Account Name:		teacher2
+	Account Domain:		GROUP2-305
+	Logon ID:		0x224336e
+
+Object:
+	Object Server:		Security
+	Object Type:		File
+	Object Name:		\Device\HarddiskVolume7\MainShare
+	Handle ID:		0xa10
+
+Process Information:
+	Process ID:		0x4
+	Process Name:		
+
+Access Request Information:
+	Transaction ID:		{00000000-0000-0000-0000-000000000000}
+	Accesses:		ReadData (or ListDirectory)
+			ReadAttributes
+			
+	Access Mask:		0x81
+	Privileges Used for Access Check:	-
+	Restricted SID Count:	0"
+Information	7/20/2015 12:57:34 PM	Microsoft-Windows-Security-Auditing	4656	File System	"A handle to an object was requested.
+
+Subject:
+	Security ID:		S-1-5-21-3794405679-3244179209-1787853216-1156
+	Account Name:		teacher2
+	Account Domain:		GROUP2-305
+	Logon ID:		0x224336e
+
+Object:
+	Object Server:		Security
+	Object Type:		File
+	Object Name:		\Device\HarddiskVolume7\
+	Handle ID:		0xa10
+
+Process Information:
+	Process ID:		0x4
+	Process Name:		
+
+Access Request Information:
+	Transaction ID:		{00000000-0000-0000-0000-000000000000}
+	Accesses:		ReadData (or ListDirectory)
+			ReadAttributes
+			
+	Access Mask:		0x81
+	Privileges Used for Access Check:	-
+	Restricted SID Count:	0"
+Information	7/20/2015 12:54:59 PM	Microsoft-Windows-Security-Auditing	4624	Logon	"An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Logon Type:			3
+
+New Logon:
+	Security ID:		S-1-5-18
+	Account Name:		DIM-305$
+	Account Domain:		GROUP2-305
+	Logon ID:		0x229d32d
+	Logon GUID:		{9F0A41D5-5052-66A1-9D7E-6F11256D89A8}
+
+Process Information:
+	Process ID:		0x0
+	Process Name:		-
+
+Network Information:
+	Workstation Name:	
+	Source Network Address:	10.10.25.248
+	Source Port:		58724
+
+Detailed Authentication Information:
+	Logon Process:		Kerberos
+	Authentication Package:	Kerberos
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested."
+Information	7/20/2015 12:54:59 PM	Microsoft-Windows-Security-Auditing	4624	Logon	"An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Logon Type:			3
+
+New Logon:
+	Security ID:		S-1-5-18
+	Account Name:		DIM-305$
+	Account Domain:		GROUP2-305
+	Logon ID:		0x229d2b5
+	Logon GUID:		{9F0A41D5-5052-66A1-9D7E-6F11256D89A8}
+
+Process Information:
+	Process ID:		0x0
+	Process Name:		-
+
+Network Information:
+	Workstation Name:	
+	Source Network Address:	10.10.25.248
+	Source Port:		58722
+
+Detailed Authentication Information:
+	Logon Process:		Kerberos
+	Authentication Package:	Kerberos
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested."
+Information	7/20/2015 12:54:46 PM	Microsoft-Windows-Security-Auditing	5140	File Share	"A network share object was accessed.
+	
+Subject:
+	Security ID:		S-1-5-19
+	Account Name:		LOCAL SERVICE
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3e5
+
+Network Information:	
+	Source Address:		::1
+	Source Port:		58707
+	
+Share Name:			\\*\IPC$"
+Information	7/20/2015 12:54:27 PM	Microsoft-Windows-Security-Auditing	4656	File System	"A handle to an object was requested.
+
+Subject:
+	Security ID:		S-1-5-21-3794405679-3244179209-1787853216-1156
+	Account Name:		teacher2
+	Account Domain:		GROUP2-305
+	Logon ID:		0x224336e
+
+Object:
+	Object Server:		Security
+	Object Type:		File
+	Object Name:		\Device\HarddiskVolume7\MainShare\TestShare2
+	Handle ID:		0x7b4
+
+Process Information:
+	Process ID:		0x4
+	Process Name:		
+
+Access Request Information:
+	Transaction ID:		{00000000-0000-0000-0000-000000000000}
+	Accesses:		ReadData (or ListDirectory)
+			ReadAttributes
+			
+	Access Mask:		0x81
+	Privileges Used for Access Check:	-
+	Restricted SID Count:	0"
+Information	7/20/2015 12:54:25 PM	Microsoft-Windows-Security-Auditing	4656	File System	"A handle to an object was requested.
+
+Subject:
+	Security ID:		S-1-5-21-3794405679-3244179209-1787853216-1156
+	Account Name:		teacher2
+	Account Domain:		GROUP2-305
+	Logon ID:		0x224336e
+
+Object:
+	Object Server:		Security
+	Object Type:		File
+	Object Name:		\Device\HarddiskVolume7\MainShare\TestShare2
+	Handle ID:		0x868
+
+Process Information:
+	Process ID:		0x4
+	Process Name:		
+
+Access Request Information:
+	Transaction ID:		{00000000-0000-0000-0000-000000000000}
+	Accesses:		ReadData (or ListDirectory)
+			ReadAttributes
+			
+	Access Mask:		0x81
+	Privileges Used for Access Check:	-
+	Restricted SID Count:	0"
+Information	7/20/2015 12:54:24 PM	Microsoft-Windows-Security-Auditing	4663	File System	"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-21-3794405679-3244179209-1787853216-1156
+	Account Name:		teacher2
+	Account Domain:		GROUP2-305
+	Logon ID:		0x224336e
+
+Object:
+	Object Server:	Security
+	Object Type:	File
+	Object Name:	\Device\HarddiskVolume7\MainShare\TestShare2\WSUS Fix for Windows 8.1.doc
+	Handle ID:	0x7b4
+
+Process Information:
+	Process ID:	0x4
+	Process Name:	
+
+Access Request Information:
+	Accesses:	ReadData (or ListDirectory)
+			
+	Access Mask:	0x1"
+Information	7/20/2015 12:54:24 PM	Microsoft-Windows-Security-Auditing	4656	File System	"A handle to an object was requested.
+
+Subject:
+	Security ID:		S-1-5-21-3794405679-3244179209-1787853216-1156
+	Account Name:		teacher2
+	Account Domain:		GROUP2-305
+	Logon ID:		0x224336e
+
+Object:
+	Object Server:		Security
+	Object Type:		File
+	Object Name:		\Device\HarddiskVolume7\MainShare\TestShare2\WSUS Fix for Windows 8.1.doc
+	Handle ID:		0x7b4
+
+Process Information:
+	Process ID:		0x4
+	Process Name:		
+
+Access Request Information:
+	Transaction ID:		{00000000-0000-0000-0000-000000000000}
+	Accesses:		READ_CONTROL
+			ReadData (or ListDirectory)
+			ReadEA
+			ReadAttributes
+			
+	Access Mask:		0x20089
+	Privileges Used for Access Check:	-
+	Restricted SID Count:	0"
+Information	7/20/2015 12:54:24 PM	Microsoft-Windows-Security-Auditing	4656	File System	"A handle to an object was requested.
+
+Subject:
+	Security ID:		S-1-5-21-3794405679-3244179209-1787853216-1156
+	Account Name:		teacher2
+	Account Domain:		GROUP2-305
+	Logon ID:		0x224336e
+
+Object:
+	Object Server:		Security
+	Object Type:		File
+	Object Name:		\Device\HarddiskVolume7\MainShare\TestShare2\WSUS Fix for Windows 8.1.doc
+	Handle ID:		0x7b4
+
+Process Information:
+	Process ID:		0x4
+	Process Name:		
+
+Access Request Information:
+	Transaction ID:		{00000000-0000-0000-0000-000000000000}
+	Accesses:		READ_CONTROL
+			ReadData (or ListDirectory)
+			ReadEA
+			ReadAttributes
+			
+	Access Mask:		0x20089
+	Privileges Used for Access Check:	-
+	Restricted SID Count:	0"
+Information	7/20/2015 12:54:24 PM	Microsoft-Windows-Security-Auditing	4663	File System	"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-21-3794405679-3244179209-1787853216-1156
+	Account Name:		teacher2
+	Account Domain:		GROUP2-305
+	Logon ID:		0x224336e
+
+Object:
+	Object Server:	Security
+	Object Type:	File
+	Object Name:	\Device\HarddiskVolume7\MainShare\TestShare2\WSUS Fix for Windows 8.1.doc
+	Handle ID:	0x7b4
+
+Process Information:
+	Process ID:	0x4
+	Process Name:	
+
+Access Request Information:
+	Accesses:	ReadData (or ListDirectory)
+			
+	Access Mask:	0x1"
+Information	7/20/2015 12:54:24 PM	Microsoft-Windows-Security-Auditing	4656	File System	"A handle to an object was requested.
+
+Subject:
+	Security ID:		S-1-5-21-3794405679-3244179209-1787853216-1156
+	Account Name:		teacher2
+	Account Domain:		GROUP2-305
+	Logon ID:		0x224336e
+
+Object:
+	Object Server:		Security
+	Object Type:		File
+	Object Name:		\Device\HarddiskVolume7\MainShare\TestShare2\WSUS Fix for Windows 8.1.doc
+	Handle ID:		0x7b4
+
+Process Information:
+	Process ID:		0x4
+	Process Name:		
+
+Access Request Information:
+	Transaction ID:		{00000000-0000-0000-0000-000000000000}
+	Accesses:		READ_CONTROL
+			ReadData (or ListDirectory)
+			ReadEA
+			ReadAttributes
+			
+	Access Mask:		0x20089
+	Privileges Used for Access Check:	-
+	Restricted SID Count:	0"
+Information	7/20/2015 12:54:24 PM	Microsoft-Windows-Security-Auditing	4663	File System	"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-21-3794405679-3244179209-1787853216-1156
+	Account Name:		teacher2
+	Account Domain:		GROUP2-305
+	Logon ID:		0x224336e
+
+Object:
+	Object Server:	Security
+	Object Type:	File
+	Object Name:	\Device\HarddiskVolume7\MainShare\TestShare2\WSUS Fix for Windows 8.1.doc
+	Handle ID:	0xa10
+
+Process Information:
+	Process ID:	0x4
+	Process Name:	
+
+Access Request Information:
+	Accesses:	ReadData (or ListDirectory)
+			
+	Access Mask:	0x1"
+Information	7/20/2015 12:54:24 PM	Microsoft-Windows-Security-Auditing	4656	File System	"A handle to an object was requested.
+
+Subject:
+	Security ID:		S-1-5-21-3794405679-3244179209-1787853216-1156
+	Account Name:		teacher2
+	Account Domain:		GROUP2-305
+	Logon ID:		0x224336e
+
+Object:
+	Object Server:		Security
+	Object Type:		File
+	Object Name:		\Device\HarddiskVolume7\MainShare\TestShare2\WSUS Fix for Windows 8.1.doc
+	Handle ID:		0xa10
+
+Process Information:
+	Process ID:		0x4
+	Process Name:		
+
+Access Request Information:
+	Transaction ID:		{00000000-0000-0000-0000-000000000000}
+	Accesses:		READ_CONTROL
+			ReadData (or ListDirectory)
+			WriteData (or AddFile)
+			AppendData (or AddSubdirectory or CreatePipeInstance)
+			ReadEA
+			WriteEA
+			ReadAttributes
+			WriteAttributes
+			
+	Access Mask:		0x2019f
+	Privileges Used for Access Check:	-
+	Restricted SID Count:	0"
+Information	7/20/2015 12:54:24 PM	Microsoft-Windows-Security-Auditing	4656	File System	"A handle to an object was requested.
+
+Subject:
+	Security ID:		S-1-5-21-3794405679-3244179209-1787853216-1156
+	Account Name:		teacher2
+	Account Domain:		GROUP2-305
+	Logon ID:		0x224336e
+
+Object:
+	Object Server:		Security
+	Object Type:		File
+	Object Name:		\Device\HarddiskVolume7\MainShare\TestShare2\WSUS Fix for Windows 8.1.doc
+	Handle ID:		0xa10
+
+Process Information:
+	Process ID:		0x4
+	Process Name:		
+
+Access Request Information:
+	Transaction ID:		{00000000-0000-0000-0000-000000000000}
+	Accesses:		READ_CONTROL
+			ReadData (or ListDirectory)
+			ReadEA
+			ReadAttributes
+			
+	Access Mask:		0x20089
+	Privileges Used for Access Check:	-
+	Restricted SID Count:	0"
+Information	7/20/2015 12:54:24 PM	Microsoft-Windows-Security-Auditing	4663	File System	"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-21-3794405679-3244179209-1787853216-1156
+	Account Name:		teacher2
+	Account Domain:		GROUP2-305
+	Logon ID:		0x224336e
+
+Object:
+	Object Server:	Security
+	Object Type:	File
+	Object Name:	\Device\HarddiskVolume7\MainShare\TestShare2\WSUS Fix for Windows 8.1.doc
+	Handle ID:	0xa10
+
+Process Information:
+	Process ID:	0x4
+	Process Name:	
+
+Access Request Information:
+	Accesses:	ReadData (or ListDirectory)
+			
+	Access Mask:	0x1"
+Information	7/20/2015 12:54:24 PM	Microsoft-Windows-Security-Auditing	4656	File System	"A handle to an object was requested.
+
+Subject:
+	Security ID:		S-1-5-21-3794405679-3244179209-1787853216-1156
+	Account Name:		teacher2
+	Account Domain:		GROUP2-305
+	Logon ID:		0x224336e
+
+Object:
+	Object Server:		Security
+	Object Type:		File
+	Object Name:		\Device\HarddiskVolume7\MainShare\TestShare2\WSUS Fix for Windows 8.1.doc
+	Handle ID:		0xa10
+
+Process Information:
+	Process ID:		0x4
+	Process Name:		
+
+Access Request Information:
+	Transaction ID:		{00000000-0000-0000-0000-000000000000}
+	Accesses:		READ_CONTROL
+			ReadData (or ListDirectory)
+			ReadEA
+			ReadAttributes
+			
+	Access Mask:		0x20089
+	Privileges Used for Access Check:	-
+	Restricted SID Count:	0"
+Information	7/20/2015 12:54:23 PM	Microsoft-Windows-Security-Auditing	4663	File System	"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-21-3794405679-3244179209-1787853216-1156
+	Account Name:		teacher2
+	Account Domain:		GROUP2-305
+	Logon ID:		0x224336e
+
+Object:
+	Object Server:	Security
+	Object Type:	File
+	Object Name:	\Device\HarddiskVolume7\MainShare\TestShare2\C4A21871.tmp
+	Handle ID:	0xa10
+
+Process Information:
+	Process ID:	0x4
+	Process Name:	
+
+Access Request Information:
+	Accesses:	DELETE
+			
+	Access Mask:	0x10000"
+Information	7/20/2015 12:54:23 PM	Microsoft-Windows-Security-Auditing	4660	File System	"An object was deleted.
+
+Subject:
+	Security ID:		S-1-5-21-3794405679-3244179209-1787853216-1156
+	Account Name:		teacher2
+	Account Domain:		GROUP2-305
+	Logon ID:		0x224336e
+
+Object:
+	Object Server:	Security
+	Handle ID:	0xa10
+
+Process Information:
+	Process ID:	0x4
+	Process Name:	
+	Transaction ID:	{00000000-0000-0000-0000-000000000000}"
+Information	7/20/2015 12:54:23 PM	Microsoft-Windows-Security-Auditing	4656	File System	"A handle to an object was requested.
+
+Subject:
+	Security ID:		S-1-5-21-3794405679-3244179209-1787853216-1156
+	Account Name:		teacher2
+	Account Domain:		GROUP2-305
+	Logon ID:		0x224336e
+
+Object:
+	Object Server:		Security
+	Object Type:		File
+	Object Name:		\Device\HarddiskVolume7\MainShare\TestShare2\C4A21871.tmp
+	Handle ID:		0xa10
+
+Process Information:
+	Process ID:		0x4
+	Process Name:		
+
+Access Request Information:
+	Transaction ID:		{00000000-0000-0000-0000-000000000000}
+	Accesses:		DELETE
+			ReadAttributes
+			
+	Access Mask:		0x10080
+	Privileges Used for Access Check:	-
+	Restricted SID Count:	0"
+Information	7/20/2015 12:54:23 PM	Microsoft-Windows-Security-Auditing	4656	File System	"A handle to an object was requested.
+
+Subject:
+	Security ID:		S-1-5-21-3794405679-3244179209-1787853216-1156
+	Account Name:		teacher2
+	Account Domain:		GROUP2-305
+	Logon ID:		0x224336e
+
+Object:
+	Object Server:		Security
+	Object Type:		File
+	Object Name:		\Device\HarddiskVolume7\MainShare\TestShare2
+	Handle ID:		0x234
+
+Process Information:
+	Process ID:		0x4
+	Process Name:		
+
+Access Request Information:
+	Transaction ID:		{00000000-0000-0000-0000-000000000000}
+	Accesses:		ReadData (or ListDirectory)
+			ReadAttributes
+			
+	Access Mask:		0x81
+	Privileges Used for Access Check:	-
+	Restricted SID Count:	0"
+Information	7/20/2015 12:54:23 PM	Microsoft-Windows-Security-Auditing	4663	File System	"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-21-3794405679-3244179209-1787853216-1156
+	Account Name:		teacher2
+	Account Domain:		GROUP2-305
+	Logon ID:		0x224336e
+
+Object:
+	Object Server:	Security
+	Object Type:	File
+	Object Name:	\Device\HarddiskVolume7\MainShare\TestShare2\8B234E30.tmp
+	Handle ID:	0xa14
+
+Process Information:
+	Process ID:	0x4
+	Process Name:	
+
+Access Request Information:
+	Accesses:	DELETE
+			
+	Access Mask:	0x10000"
+Information	7/20/2015 12:54:23 PM	Microsoft-Windows-Security-Auditing	4656	File System	"A handle to an object was requested.
+
+Subject:
+	Security ID:		S-1-5-21-3794405679-3244179209-1787853216-1156
+	Account Name:		teacher2
+	Account Domain:		GROUP2-305
+	Logon ID:		0x224336e
+
+Object:
+	Object Server:		Security
+	Object Type:		File
+	Object Name:		\Device\HarddiskVolume7\MainShare\TestShare2
+	Handle ID:		0x7b4
+
+Process Information:
+	Process ID:		0x4
+	Process Name:		
+
+Access Request Information:
+	Transaction ID:		{00000000-0000-0000-0000-000000000000}
+	Accesses:		SYNCHRONIZE
+			WriteData (or AddFile)
+			
+	Access Mask:		0x100002
+	Privileges Used for Access Check:	-
+	Restricted SID Count:	0"
+Information	7/20/2015 12:54:23 PM	Microsoft-Windows-Security-Auditing	4663	File System	"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-21-3794405679-3244179209-1787853216-1156
+	Account Name:		teacher2
+	Account Domain:		GROUP2-305
+	Logon ID:		0x224336e
+
+Object:
+	Object Server:	Security
+	Object Type:	File
+	Object Name:	\Device\HarddiskVolume7\MainShare\TestShare2
+	Handle ID:	0x7b4
+
+Process Information:
+	Process ID:	0x4
+	Process Name:	
+
+Access Request Information:
+	Accesses:	WriteData (or AddFile)
+			
+	Access Mask:	0x2"
+Information	7/20/2015 12:54:23 PM	Microsoft-Windows-Security-Auditing	4663	File System	"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-21-3794405679-3244179209-1787853216-1156
+	Account Name:		teacher2
+	Account Domain:		GROUP2-305
+	Logon ID:		0x224336e
+
+Object:
+	Object Server:	Security
+	Object Type:	File
+	Object Name:	\Device\HarddiskVolume7\MainShare\TestShare2\WSUS Fix for Windows 8.1.doc
+	Handle ID:	0xa10
+
+Process Information:
+	Process ID:	0x4
+	Process Name:	
+
+Access Request Information:
+	Accesses:	DELETE
+			
+	Access Mask:	0x10000"
+Information	7/20/2015 12:54:23 PM	Microsoft-Windows-Security-Auditing	4656	File System	"A handle to an object was requested.
+
+Subject:
+	Security ID:		S-1-5-21-3794405679-3244179209-1787853216-1156
+	Account Name:		teacher2
+	Account Domain:		GROUP2-305
+	Logon ID:		0x224336e
+
+Object:
+	Object Server:		Security
+	Object Type:		File
+	Object Name:		\Device\HarddiskVolume7\MainShare\TestShare2
+	Handle ID:		0x868
+
+Process Information:
+	Process ID:		0x4
+	Process Name:		
+
+Access Request Information:
+	Transaction ID:		{00000000-0000-0000-0000-000000000000}
+	Accesses:		SYNCHRONIZE
+			WriteData (or AddFile)
+			
+	Access Mask:		0x100002
+	Privileges Used for Access Check:	-
+	Restricted SID Count:	0"
+Information	7/20/2015 12:54:23 PM	Microsoft-Windows-Security-Auditing	4663	File System	"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-21-3794405679-3244179209-1787853216-1156
+	Account Name:		teacher2
+	Account Domain:		GROUP2-305
+	Logon ID:		0x224336e
+
+Object:
+	Object Server:	Security
+	Object Type:	File
+	Object Name:	\Device\HarddiskVolume7\MainShare\TestShare2
+	Handle ID:	0x868
+
+Process Information:
+	Process ID:	0x4
+	Process Name:	
+
+Access Request Information:
+	Accesses:	WriteData (or AddFile)
+			
+	Access Mask:	0x2"
+Information	7/20/2015 12:54:23 PM	Microsoft-Windows-Security-Auditing	4656	File System	"A handle to an object was requested.
+
+Subject:
+	Security ID:		S-1-5-21-3794405679-3244179209-1787853216-1156
+	Account Name:		teacher2
+	Account Domain:		GROUP2-305
+	Logon ID:		0x224336e
+
+Object:
+	Object Server:		Security
+	Object Type:		File
+	Object Name:		\Device\HarddiskVolume7\MainShare\TestShare2\8B234E30.tmp
+	Handle ID:		0xa14
+
+Process Information:
+	Process ID:		0x4
+	Process Name:		
+
+Access Request Information:
+	Transaction ID:		{00000000-0000-0000-0000-000000000000}
+	Accesses:		DELETE
+			READ_CONTROL
+			ReadData (or ListDirectory)
+			WriteData (or AddFile)
+			AppendData (or AddSubdirectory or CreatePipeInstance)
+			ReadEA
+			WriteEA
+			ReadAttributes
+			WriteAttributes
+			
+	Access Mask:		0x3019f
+	Privileges Used for Access Check:	-
+	Restricted SID Count:	0"
+Information	7/20/2015 12:54:23 PM	Microsoft-Windows-Security-Auditing	4656	File System	"A handle to an object was requested.
+
+Subject:
+	Security ID:		S-1-5-21-3794405679-3244179209-1787853216-1156
+	Account Name:		teacher2
+	Account Domain:		GROUP2-305
+	Logon ID:		0x224336e
+
+Object:
+	Object Server:		Security
+	Object Type:		File
+	Object Name:		\Device\HarddiskVolume7\MainShare\TestShare2\WSUS Fix for Windows 8.1.doc
+	Handle ID:		0xa10
+
+Process Information:
+	Process ID:		0x4
+	Process Name:		
+
+Access Request Information:
+	Transaction ID:		{00000000-0000-0000-0000-000000000000}
+	Accesses:		DELETE
+			READ_CONTROL
+			ReadData (or ListDirectory)
+			WriteData (or AddFile)
+			ReadEA
+			ReadAttributes
+			
+	Access Mask:		0x3008b
+	Privileges Used for Access Check:	-
+	Restricted SID Count:	0"
+Information	7/20/2015 12:54:23 PM	Microsoft-Windows-Security-Auditing	4656	File System	"A handle to an object was requested.
+
+Subject:
+	Security ID:		S-1-5-21-3794405679-3244179209-1787853216-1156
+	Account Name:		teacher2
+	Account Domain:		GROUP2-305
+	Logon ID:		0x224336e
+
+Object:
+	Object Server:		Security
+	Object Type:		File
+	Object Name:		\Device\HarddiskVolume7\MainShare\TestShare2
+	Handle ID:		0x7b4
+
+Process Information:
+	Process ID:		0x4
+	Process Name:		
+
+Access Request Information:
+	Transaction ID:		{00000000-0000-0000-0000-000000000000}
+	Accesses:		ReadData (or ListDirectory)
+			ReadAttributes
+			
+	Access Mask:		0x81
+	Privileges Used for Access Check:	-
+	Restricted SID Count:	0"
+Information	7/20/2015 12:54:20 PM	Microsoft-Windows-Security-Auditing	4663	File System	"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-21-3794405679-3244179209-1787853216-1156
+	Account Name:		teacher2
+	Account Domain:		GROUP2-305
+	Logon ID:		0x224336e
+
+Object:
+	Object Server:	Security
+	Object Type:	File
+	Object Name:	\Device\HarddiskVolume7\MainShare\TestShare2\8B234E30.tmp
+	Handle ID:	0xa10
+
+Process Information:
+	Process ID:	0x4
+	Process Name:	
+
+Access Request Information:
+	Accesses:	WriteData (or AddFile)
+			
+	Access Mask:	0x2"
+Information	7/20/2015 12:54:20 PM	Microsoft-Windows-Security-Auditing	4656	File System	"A handle to an object was requested.
+
+Subject:
+	Security ID:		S-1-5-21-3794405679-3244179209-1787853216-1156
+	Account Name:		teacher2
+	Account Domain:		GROUP2-305
+	Logon ID:		0x224336e
+
+Object:
+	Object Server:		Security
+	Object Type:		File
+	Object Name:		\Device\HarddiskVolume7\MainShare\TestShare2\8B234E30.tmp
+	Handle ID:		0xa10
+
+Process Information:
+	Process ID:		0x4
+	Process Name:		
+
+Access Request Information:
+	Transaction ID:		{00000000-0000-0000-0000-000000000000}
+	Accesses:		READ_CONTROL
+			ReadData (or ListDirectory)
+			WriteData (or AddFile)
+			AppendData (or AddSubdirectory or CreatePipeInstance)
+			WriteEA
+			ReadAttributes
+			WriteAttributes
+			
+	Access Mask:		0x20197
+	Privileges Used for Access Check:	-
+	Restricted SID Count:	0"
+Information	7/20/2015 12:52:56 PM	Microsoft-Windows-Security-Auditing	5140	File Share	"A network share object was accessed.
+	
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		DIM-305$
+	Account Domain:		GROUP2-305
+	Logon ID:		0x228f661
+
+Network Information:	
+	Source Address:		::1
+	Source Port:		58672
+	
+Share Name:			\\*\SYSVOL"
+Information	7/20/2015 12:52:56 PM	Microsoft-Windows-Security-Auditing	4624	Logon	"An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Logon Type:			3
+
+New Logon:
+	Security ID:		S-1-5-18
+	Account Name:		DIM-305$
+	Account Domain:		GROUP2-305
+	Logon ID:		0x228f694
+	Logon GUID:		{254DA3FC-3CE4-0BD4-D151-ED09117E9E8C}
+
+Process Information:
+	Process ID:		0x0
+	Process Name:		-
+
+Network Information:
+	Workstation Name:	
+	Source Network Address:	::1
+	Source Port:		58674
+
+Detailed Authentication Information:
+	Logon Process:		Kerberos
+	Authentication Package:	Kerberos
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested."
+Information	7/20/2015 12:52:56 PM	Microsoft-Windows-Security-Auditing	4624	Logon	"An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Logon Type:			3
+
+New Logon:
+	Security ID:		S-1-5-18
+	Account Name:		DIM-305$
+	Account Domain:		GROUP2-305
+	Logon ID:		0x228f661
+	Logon GUID:		{2E26668D-C2B4-4FBD-95D3-9FCD293A42DB}
+
+Process Information:
+	Process ID:		0x0
+	Process Name:		-
+
+Network Information:
+	Workstation Name:	
+	Source Network Address:	::1
+	Source Port:		58672
+
+Detailed Authentication Information:
+	Logon Process:		Kerberos
+	Authentication Package:	Kerberos
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested."
+Information	7/20/2015 12:52:56 PM	Microsoft-Windows-Security-Auditing	5140	File Share	"A network share object was accessed.
+	
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		DIM-305$
+	Account Domain:		GROUP2-305
+	Logon ID:		0x228f661
+
+Network Information:	
+	Source Address:		::1
+	Source Port:		58672
+	
+Share Name:			\\*\IPC$"
+Information	7/20/2015 12:52:56 PM	Microsoft-Windows-Security-Auditing	4624	Logon	"An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Logon Type:			3
+
+New Logon:
+	Security ID:		S-1-5-18
+	Account Name:		DIM-305$
+	Account Domain:		GROUP2-305
+	Logon ID:		0x228f63b
+	Logon GUID:		{254DA3FC-3CE4-0BD4-D151-ED09117E9E8C}
+
+Process Information:
+	Process ID:		0x0
+	Process Name:		-
+
+Network Information:
+	Workstation Name:	
+	Source Network Address:	10.10.25.248
+	Source Port:		58671
+
+Detailed Authentication Information:
+	Logon Process:		Kerberos
+	Authentication Package:	Kerberos
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested."
+Information	7/20/2015 12:52:56 PM	Microsoft-Windows-Security-Auditing	4624	Logon	"An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Logon Type:			3
+
+New Logon:
+	Security ID:		S-1-5-18
+	Account Name:		DIM-305$
+	Account Domain:		GROUP2-305
+	Logon ID:		0x228f5ef
+	Logon GUID:		{A5AD8E1B-D9E2-60E4-2A11-4527CC3E8A81}
+
+Process Information:
+	Process ID:		0x0
+	Process Name:		-
+
+Network Information:
+	Workstation Name:	
+	Source Network Address:	::1
+	Source Port:		0
+
+Detailed Authentication Information:
+	Logon Process:		Kerberos
+	Authentication Package:	Kerberos
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested."
+Information	7/20/2015 12:52:56 PM	Microsoft-Windows-Security-Auditing	4624	Logon	"An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Logon Type:			3
+
+New Logon:
+	Security ID:		S-1-5-18
+	Account Name:		DIM-305$
+	Account Domain:		GROUP2-305
+	Logon ID:		0x228f533
+	Logon GUID:		{254DA3FC-3CE4-0BD4-D151-ED09117E9E8C}
+
+Process Information:
+	Process ID:		0x0
+	Process Name:		-
+
+Network Information:
+	Workstation Name:	
+	Source Network Address:	10.10.25.248
+	Source Port:		58670
+
+Detailed Authentication Information:
+	Logon Process:		Kerberos
+	Authentication Package:	Kerberos
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested."
+Information	7/20/2015 12:52:18 PM	Microsoft-Windows-Security-Auditing	4656	File System	"A handle to an object was requested.
+
+Subject:
+	Security ID:		S-1-5-21-3794405679-3244179209-1787853216-1156
+	Account Name:		teacher2
+	Account Domain:		GROUP2-305
+	Logon ID:		0x224336e
+
+Object:
+	Object Server:		Security
+	Object Type:		File
+	Object Name:		\Device\HarddiskVolume7\MainShare
+	Handle ID:		0xa08
+
+Process Information:
+	Process ID:		0x4
+	Process Name:		
+
+Access Request Information:
+	Transaction ID:		{00000000-0000-0000-0000-000000000000}
+	Accesses:		ReadData (or ListDirectory)
+			ReadAttributes
+			
+	Access Mask:		0x81
+	Privileges Used for Access Check:	-
+	Restricted SID Count:	0"
+Information	7/20/2015 12:52:17 PM	Microsoft-Windows-Security-Auditing	4656	File System	"A handle to an object was requested.
+
+Subject:
+	Security ID:		S-1-5-21-3794405679-3244179209-1787853216-1156
+	Account Name:		teacher2
+	Account Domain:		GROUP2-305
+	Logon ID:		0x224336e
+
+Object:
+	Object Server:		Security
+	Object Type:		File
+	Object Name:		\Device\HarddiskVolume7\MainShare\TestShare2
+	Handle ID:		0x280
+
+Process Information:
+	Process ID:		0x4
+	Process Name:		
+
+Access Request Information:
+	Transaction ID:		{00000000-0000-0000-0000-000000000000}
+	Accesses:		ReadData (or ListDirectory)
+			ReadAttributes
+			
+	Access Mask:		0x81
+	Privileges Used for Access Check:	-
+	Restricted SID Count:	0"
+Information	7/20/2015 12:52:17 PM	Microsoft-Windows-Security-Auditing	4656	File System	"A handle to an object was requested.
+
+Subject:
+	Security ID:		S-1-5-21-3794405679-3244179209-1787853216-1156
+	Account Name:		teacher2
+	Account Domain:		GROUP2-305
+	Logon ID:		0x224336e
+
+Object:
+	Object Server:		Security
+	Object Type:		File
+	Object Name:		\Device\HarddiskVolume7\
+	Handle ID:		0x234
+
+Process Information:
+	Process ID:		0x4
+	Process Name:		
+
+Access Request Information:
+	Transaction ID:		{00000000-0000-0000-0000-000000000000}
+	Accesses:		ReadData (or ListDirectory)
+			ReadAttributes
+			
+	Access Mask:		0x81
+	Privileges Used for Access Check:	-
+	Restricted SID Count:	0"
+Information	7/20/2015 12:52:17 PM	Microsoft-Windows-Security-Auditing	4656	File System	"A handle to an object was requested.
+
+Subject:
+	Security ID:		S-1-5-21-3794405679-3244179209-1787853216-1156
+	Account Name:		teacher2
+	Account Domain:		GROUP2-305
+	Logon ID:		0x224336e
+
+Object:
+	Object Server:		Security
+	Object Type:		File
+	Object Name:		\Device\HarddiskVolume7\MainShare\TestShare2
+	Handle ID:		0x234
+
+Process Information:
+	Process ID:		0x4
+	Process Name:		
+
+Access Request Information:
+	Transaction ID:		{00000000-0000-0000-0000-000000000000}
+	Accesses:		ReadData (or ListDirectory)
+			ReadAttributes
+			
+	Access Mask:		0x81
+	Privileges Used for Access Check:	-
+	Restricted SID Count:	0"
+Information	7/20/2015 12:52:16 PM	Microsoft-Windows-Security-Auditing	4656	File System	"A handle to an object was requested.
+
+Subject:
+	Security ID:		S-1-5-21-3794405679-3244179209-1787853216-1156
+	Account Name:		teacher2
+	Account Domain:		GROUP2-305
+	Logon ID:		0x224336e
+
+Object:
+	Object Server:		Security
+	Object Type:		File
+	Object Name:		\Device\HarddiskVolume7\MainShare
+	Handle ID:		0x234
+
+Process Information:
+	Process ID:		0x4
+	Process Name:		
+
+Access Request Information:
+	Transaction ID:		{00000000-0000-0000-0000-000000000000}
+	Accesses:		ReadData (or ListDirectory)
+			ReadAttributes
+			
+	Access Mask:		0x81
+	Privileges Used for Access Check:	-
+	Restricted SID Count:	0"
+Information	7/20/2015 12:52:16 PM	Microsoft-Windows-Security-Auditing	4656	File System	"A handle to an object was requested.
+
+Subject:
+	Security ID:		S-1-5-21-3794405679-3244179209-1787853216-1156
+	Account Name:		teacher2
+	Account Domain:		GROUP2-305
+	Logon ID:		0x224336e
+
+Object:
+	Object Server:		Security
+	Object Type:		File
+	Object Name:		\Device\HarddiskVolume7\MainShare
+	Handle ID:		0x280
+
+Process Information:
+	Process ID:		0x4
+	Process Name:		
+
+Access Request Information:
+	Transaction ID:		{00000000-0000-0000-0000-000000000000}
+	Accesses:		ReadData (or ListDirectory)
+			ReadAttributes
+			
+	Access Mask:		0x81
+	Privileges Used for Access Check:	-
+	Restricted SID Count:	0"
+Information	7/20/2015 12:52:16 PM	Microsoft-Windows-Security-Auditing	4656	File System	"A handle to an object was requested.
+
+Subject:
+	Security ID:		S-1-5-21-3794405679-3244179209-1787853216-1156
+	Account Name:		teacher2
+	Account Domain:		GROUP2-305
+	Logon ID:		0x224336e
+
+Object:
+	Object Server:		Security
+	Object Type:		File
+	Object Name:		\Device\HarddiskVolume7\
+	Handle ID:		0x280
+
+Process Information:
+	Process ID:		0x4
+	Process Name:		
+
+Access Request Information:
+	Transaction ID:		{00000000-0000-0000-0000-000000000000}
+	Accesses:		ReadData (or ListDirectory)
+			ReadAttributes
+			
+	Access Mask:		0x81
+	Privileges Used for Access Check:	-
+	Restricted SID Count:	0"
+Information	7/20/2015 12:52:16 PM	Microsoft-Windows-Security-Auditing	4656	File System	"A handle to an object was requested.
+
+Subject:
+	Security ID:		S-1-5-21-3794405679-3244179209-1787853216-1156
+	Account Name:		teacher2
+	Account Domain:		GROUP2-305
+	Logon ID:		0x224336e
+
+Object:
+	Object Server:		Security
+	Object Type:		File
+	Object Name:		\Device\HarddiskVolume7\MainShare\TestShare2
+	Handle ID:		0x234
+
+Process Information:
+	Process ID:		0x4
+	Process Name:		
+
+Access Request Information:
+	Transaction ID:		{00000000-0000-0000-0000-000000000000}
+	Accesses:		ReadData (or ListDirectory)
+			ReadAttributes
+			
+	Access Mask:		0x81
+	Privileges Used for Access Check:	-
+	Restricted SID Count:	0"
+Information	7/20/2015 12:52:15 PM	Microsoft-Windows-Security-Auditing	4663	File System	"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-21-3794405679-3244179209-1787853216-1156
+	Account Name:		teacher2
+	Account Domain:		GROUP2-305
+	Logon ID:		0x224336e
+
+Object:
+	Object Server:	Security
+	Object Type:	File
+	Object Name:	\Device\HarddiskVolume7\MainShare\TestShare2\~$US Fix for Windows 8.1.doc
+	Handle ID:	0x280
+
+Process Information:
+	Process ID:	0x4
+	Process Name:	
+
+Access Request Information:
+	Accesses:	WriteData (or AddFile)
+			
+	Access Mask:	0x2"
+Information	7/20/2015 12:52:15 PM	Microsoft-Windows-Security-Auditing	4656	File System	"A handle to an object was requested.
+
+Subject:
+	Security ID:		S-1-5-21-3794405679-3244179209-1787853216-1156
+	Account Name:		teacher2
+	Account Domain:		GROUP2-305
+	Logon ID:		0x224336e
+
+Object:
+	Object Server:		Security
+	Object Type:		File
+	Object Name:		\Device\HarddiskVolume7\MainShare\TestShare2\~$US Fix for Windows 8.1.doc
+	Handle ID:		0x280
+
+Process Information:
+	Process ID:		0x4
+	Process Name:		
+
+Access Request Information:
+	Transaction ID:		{00000000-0000-0000-0000-000000000000}
+	Accesses:		READ_CONTROL
+			WriteData (or AddFile)
+			AppendData (or AddSubdirectory or CreatePipeInstance)
+			WriteEA
+			ReadAttributes
+			WriteAttributes
+			
+	Access Mask:		0x20196
+	Privileges Used for Access Check:	-
+	Restricted SID Count:	0"
+Information	7/20/2015 12:52:15 PM	Microsoft-Windows-Security-Auditing	4656	File System	"A handle to an object was requested.
+
+Subject:
+	Security ID:		S-1-5-21-3794405679-3244179209-1787853216-1156
+	Account Name:		teacher2
+	Account Domain:		GROUP2-305
+	Logon ID:		0x224336e
+
+Object:
+	Object Server:		Security
+	Object Type:		File
+	Object Name:		\Device\HarddiskVolume7\MainShare\TestShare2
+	Handle ID:		0x280
+
+Process Information:
+	Process ID:		0x4
+	Process Name:		
+
+Access Request Information:
+	Transaction ID:		{00000000-0000-0000-0000-000000000000}
+	Accesses:		ReadData (or ListDirectory)
+			ReadAttributes
+			
+	Access Mask:		0x81
+	Privileges Used for Access Check:	-
+	Restricted SID Count:	0"
+Information	7/20/2015 12:52:14 PM	Microsoft-Windows-Security-Auditing	4663	File System	"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-21-3794405679-3244179209-1787853216-1156
+	Account Name:		teacher2
+	Account Domain:		GROUP2-305
+	Logon ID:		0x224336e
+
+Object:
+	Object Server:	Security
+	Object Type:	File
+	Object Name:	\Device\HarddiskVolume7\MainShare\TestShare2\WSUS Fix for Windows 8.1.doc
+	Handle ID:	0x280
+
+Process Information:
+	Process ID:	0x4
+	Process Name:	
+
+Access Request Information:
+	Accesses:	ReadData (or ListDirectory)
+			
+	Access Mask:	0x1"
+Information	7/20/2015 12:52:14 PM	Microsoft-Windows-Security-Auditing	4656	File System	"A handle to an object was requested.
+
+Subject:
+	Security ID:		S-1-5-21-3794405679-3244179209-1787853216-1156
+	Account Name:		teacher2
+	Account Domain:		GROUP2-305
+	Logon ID:		0x224336e
+
+Object:
+	Object Server:		Security
+	Object Type:		File
+	Object Name:		\Device\HarddiskVolume7\MainShare\TestShare2\WSUS Fix for Windows 8.1.doc
+	Handle ID:		0x280
+
+Process Information:
+	Process ID:		0x4
+	Process Name:		
+
+Access Request Information:
+	Transaction ID:		{00000000-0000-0000-0000-000000000000}
+	Accesses:		READ_CONTROL
+			ReadData (or ListDirectory)
+			ReadEA
+			ReadAttributes
+			
+	Access Mask:		0x20089
+	Privileges Used for Access Check:	-
+	Restricted SID Count:	0"
+Information	7/20/2015 12:52:14 PM	Microsoft-Windows-Security-Auditing	4656	File System	"A handle to an object was requested.
+
+Subject:
+	Security ID:		S-1-5-21-3794405679-3244179209-1787853216-1156
+	Account Name:		teacher2
+	Account Domain:		GROUP2-305
+	Logon ID:		0x224336e
+
+Object:
+	Object Server:		Security
+	Object Type:		File
+	Object Name:		\Device\HarddiskVolume7\MainShare\TestShare2\WSUS Fix for Windows 8.1.doc
+	Handle ID:		0x280
+
+Process Information:
+	Process ID:		0x4
+	Process Name:		
+
+Access Request Information:
+	Transaction ID:		{00000000-0000-0000-0000-000000000000}
+	Accesses:		READ_CONTROL
+			ReadData (or ListDirectory)
+			ReadEA
+			ReadAttributes
+			
+	Access Mask:		0x20089
+	Privileges Used for Access Check:	-
+	Restricted SID Count:	0"
+Information	7/20/2015 12:52:10 PM	Microsoft-Windows-Security-Auditing	4663	File System	"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-21-3794405679-3244179209-1787853216-1156
+	Account Name:		teacher2
+	Account Domain:		GROUP2-305
+	Logon ID:		0x224336e
+
+Object:
+	Object Server:	Security
+	Object Type:	File
+	Object Name:	\Device\HarddiskVolume7\MainShare\TestShare2\WSUS Fix for Windows 8.1.doc
+	Handle ID:	0x280
+
+Process Information:
+	Process ID:	0x4
+	Process Name:	
+
+Access Request Information:
+	Accesses:	ReadData (or ListDirectory)
+			
+	Access Mask:	0x1"
+Information	7/20/2015 12:52:10 PM	Microsoft-Windows-Security-Auditing	4656	File System	"A handle to an object was requested.
+
+Subject:
+	Security ID:		S-1-5-21-3794405679-3244179209-1787853216-1156
+	Account Name:		teacher2
+	Account Domain:		GROUP2-305
+	Logon ID:		0x224336e
+
+Object:
+	Object Server:		Security
+	Object Type:		File
+	Object Name:		\Device\HarddiskVolume7\MainShare\TestShare2\WSUS Fix for Windows 8.1.doc
+	Handle ID:		0x280
+
+Process Information:
+	Process ID:		0x4
+	Process Name:		
+
+Access Request Information:
+	Transaction ID:		{00000000-0000-0000-0000-000000000000}
+	Accesses:		READ_CONTROL
+			ReadData (or ListDirectory)
+			ReadEA
+			ReadAttributes
+			
+	Access Mask:		0x20089
+	Privileges Used for Access Check:	-
+	Restricted SID Count:	0"
+Information	7/20/2015 12:52:10 PM	Microsoft-Windows-Security-Auditing	4663	File System	"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-21-3794405679-3244179209-1787853216-1156
+	Account Name:		teacher2
+	Account Domain:		GROUP2-305
+	Logon ID:		0x224336e
+
+Object:
+	Object Server:	Security
+	Object Type:	File
+	Object Name:	\Device\HarddiskVolume7\MainShare\TestShare2\WSUS Fix for Windows 8.1.doc
+	Handle ID:	0x280
+
+Process Information:
+	Process ID:	0x4
+	Process Name:	
+
+Access Request Information:
+	Accesses:	ReadData (or ListDirectory)
+			
+	Access Mask:	0x1"
+Information	7/20/2015 12:52:09 PM	Microsoft-Windows-Security-Auditing	4656	File System	"A handle to an object was requested.
+
+Subject:
+	Security ID:		S-1-5-21-3794405679-3244179209-1787853216-1156
+	Account Name:		teacher2
+	Account Domain:		GROUP2-305
+	Logon ID:		0x224336e
+
+Object:
+	Object Server:		Security
+	Object Type:		File
+	Object Name:		\Device\HarddiskVolume7\MainShare\TestShare2\WSUS Fix for Windows 8.1.doc
+	Handle ID:		0x280
+
+Process Information:
+	Process ID:		0x4
+	Process Name:		
+
+Access Request Information:
+	Transaction ID:		{00000000-0000-0000-0000-000000000000}
+	Accesses:		READ_CONTROL
+			ReadData (or ListDirectory)
+			ReadEA
+			ReadAttributes
+			
+	Access Mask:		0x20089
+	Privileges Used for Access Check:	-
+	Restricted SID Count:	0"
+Information	7/20/2015 12:52:09 PM	Microsoft-Windows-Security-Auditing	4663	File System	"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-21-3794405679-3244179209-1787853216-1156
+	Account Name:		teacher2
+	Account Domain:		GROUP2-305
+	Logon ID:		0x224336e
+
+Object:
+	Object Server:	Security
+	Object Type:	File
+	Object Name:	\Device\HarddiskVolume7\MainShare\TestShare2\WSUS Fix for Windows 8.1.doc
+	Handle ID:	0xa14
+
+Process Information:
+	Process ID:	0x4
+	Process Name:	
+
+Access Request Information:
+	Accesses:	ReadData (or ListDirectory)
+			
+	Access Mask:	0x1"
+Information	7/20/2015 12:52:09 PM	Microsoft-Windows-Security-Auditing	4656	File System	"A handle to an object was requested.
+
+Subject:
+	Security ID:		S-1-5-21-3794405679-3244179209-1787853216-1156
+	Account Name:		teacher2
+	Account Domain:		GROUP2-305
+	Logon ID:		0x224336e
+
+Object:
+	Object Server:		Security
+	Object Type:		File
+	Object Name:		\Device\HarddiskVolume7\MainShare\TestShare2\WSUS Fix for Windows 8.1.doc
+	Handle ID:		0xa14
+
+Process Information:
+	Process ID:		0x4
+	Process Name:		
+
+Access Request Information:
+	Transaction ID:		{00000000-0000-0000-0000-000000000000}
+	Accesses:		READ_CONTROL
+			ReadData (or ListDirectory)
+			WriteData (or AddFile)
+			AppendData (or AddSubdirectory or CreatePipeInstance)
+			ReadEA
+			WriteEA
+			ReadAttributes
+			WriteAttributes
+			
+	Access Mask:		0x2019f
+	Privileges Used for Access Check:	-
+	Restricted SID Count:	0"
+Information	7/20/2015 12:52:09 PM	Microsoft-Windows-Security-Auditing	4656	File System	"A handle to an object was requested.
+
+Subject:
+	Security ID:		S-1-5-21-3794405679-3244179209-1787853216-1156
+	Account Name:		teacher2
+	Account Domain:		GROUP2-305
+	Logon ID:		0x224336e
+
+Object:
+	Object Server:		Security
+	Object Type:		File
+	Object Name:		\Device\HarddiskVolume7\MainShare\TestShare2\WSUS Fix for Windows 8.1.doc
+	Handle ID:		0x7b4
+
+Process Information:
+	Process ID:		0x4
+	Process Name:		
+
+Access Request Information:
+	Transaction ID:		{00000000-0000-0000-0000-000000000000}
+	Accesses:		READ_CONTROL
+			ReadData (or ListDirectory)
+			ReadEA
+			ReadAttributes
+			
+	Access Mask:		0x20089
+	Privileges Used for Access Check:	-
+	Restricted SID Count:	0"
+Information	7/20/2015 12:52:09 PM	Microsoft-Windows-Security-Auditing	4663	File System	"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-21-3794405679-3244179209-1787853216-1156
+	Account Name:		teacher2
+	Account Domain:		GROUP2-305
+	Logon ID:		0x224336e
+
+Object:
+	Object Server:	Security
+	Object Type:	File
+	Object Name:	\Device\HarddiskVolume7\MainShare\TestShare2\WSUS Fix for Windows 8.1.doc
+	Handle ID:	0x7b4
+
+Process Information:
+	Process ID:	0x4
+	Process Name:	
+
+Access Request Information:
+	Accesses:	ReadData (or ListDirectory)
+			
+	Access Mask:	0x1"
+Information	7/20/2015 12:52:09 PM	Microsoft-Windows-Security-Auditing	4656	File System	"A handle to an object was requested.
+
+Subject:
+	Security ID:		S-1-5-21-3794405679-3244179209-1787853216-1156
+	Account Name:		teacher2
+	Account Domain:		GROUP2-305
+	Logon ID:		0x224336e
+
+Object:
+	Object Server:		Security
+	Object Type:		File
+	Object Name:		\Device\HarddiskVolume7\MainShare\TestShare2\WSUS Fix for Windows 8.1.doc
+	Handle ID:		0x7b4
+
+Process Information:
+	Process ID:		0x4
+	Process Name:		
+
+Access Request Information:
+	Transaction ID:		{00000000-0000-0000-0000-000000000000}
+	Accesses:		READ_CONTROL
+			ReadData (or ListDirectory)
+			ReadEA
+			ReadAttributes
+			
+	Access Mask:		0x20089
+	Privileges Used for Access Check:	-
+	Restricted SID Count:	0"
+Information	7/20/2015 12:52:08 PM	Microsoft-Windows-Security-Auditing	4656	File System	"A handle to an object was requested.
+
+Subject:
+	Security ID:		S-1-5-21-3794405679-3244179209-1787853216-1156
+	Account Name:		teacher2
+	Account Domain:		GROUP2-305
+	Logon ID:		0x224336e
+
+Object:
+	Object Server:		Security
+	Object Type:		File
+	Object Name:		\Device\HarddiskVolume7\MainShare\TestShare2
+	Handle ID:		0xa14
+
+Process Information:
+	Process ID:		0x4
+	Process Name:		
+
+Access Request Information:
+	Transaction ID:		{00000000-0000-0000-0000-000000000000}
+	Accesses:		ReadData (or ListDirectory)
+			ReadAttributes
+			
+	Access Mask:		0x81
+	Privileges Used for Access Check:	-
+	Restricted SID Count:	0"
+Information	7/20/2015 12:52:08 PM	Microsoft-Windows-Security-Auditing	4656	File System	"A handle to an object was requested.
+
+Subject:
+	Security ID:		S-1-5-21-3794405679-3244179209-1787853216-1156
+	Account Name:		teacher2
+	Account Domain:		GROUP2-305
+	Logon ID:		0x224336e
+
+Object:
+	Object Server:		Security
+	Object Type:		File
+	Object Name:		\Device\HarddiskVolume7\
+	Handle ID:		0xa04
+
+Process Information:
+	Process ID:		0x4
+	Process Name:		
+
+Access Request Information:
+	Transaction ID:		{00000000-0000-0000-0000-000000000000}
+	Accesses:		ReadData (or ListDirectory)
+			ReadAttributes
+			
+	Access Mask:		0x81
+	Privileges Used for Access Check:	-
+	Restricted SID Count:	0"
+Information	7/20/2015 12:52:07 PM	Microsoft-Windows-Security-Auditing	5140	File Share	"A network share object was accessed.
+	
+Subject:
+	Security ID:		S-1-5-21-3794405679-3244179209-1787853216-1156
+	Account Name:		teacher2
+	Account Domain:		GROUP2-305
+	Logon ID:		0x224336e
+
+Network Information:	
+	Source Address:		10.10.25.243
+	Source Port:		62942
+	
+Share Name:			\\*\IPC$"
+Information	7/20/2015 12:52:07 PM	Microsoft-Windows-Security-Auditing	4656	File System	"A handle to an object was requested.
+
+Subject:
+	Security ID:		S-1-5-21-3794405679-3244179209-1787853216-1156
+	Account Name:		teacher2
+	Account Domain:		GROUP2-305
+	Logon ID:		0x224336e
+
+Object:
+	Object Server:		Security
+	Object Type:		File
+	Object Name:		\Device\HarddiskVolume7\MainShare
+	Handle ID:		0xa04
+
+Process Information:
+	Process ID:		0x4
+	Process Name:		
+
+Access Request Information:
+	Transaction ID:		{00000000-0000-0000-0000-000000000000}
+	Accesses:		ReadData (or ListDirectory)
+			ReadAttributes
+			
+	Access Mask:		0x81
+	Privileges Used for Access Check:	-
+	Restricted SID Count:	0"
+Information	7/20/2015 12:52:07 PM	Microsoft-Windows-Security-Auditing	4656	File System	"A handle to an object was requested.
+
+Subject:
+	Security ID:		S-1-5-21-3794405679-3244179209-1787853216-1156
+	Account Name:		teacher2
+	Account Domain:		GROUP2-305
+	Logon ID:		0x224336e
+
+Object:
+	Object Server:		Security
+	Object Type:		File
+	Object Name:		\Device\HarddiskVolume7\
+	Handle ID:		0xa04
+
+Process Information:
+	Process ID:		0x4
+	Process Name:		
+
+Access Request Information:
+	Transaction ID:		{00000000-0000-0000-0000-000000000000}
+	Accesses:		ReadData (or ListDirectory)
+			ReadAttributes
+			
+	Access Mask:		0x81
+	Privileges Used for Access Check:	-
+	Restricted SID Count:	0"
+Information	7/20/2015 12:52:06 PM	Microsoft-Windows-Security-Auditing	4663	File System	"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-21-3794405679-3244179209-1787853216-1156
+	Account Name:		teacher2
+	Account Domain:		GROUP2-305
+	Logon ID:		0x224336e
+
+Object:
+	Object Server:	Security
+	Object Type:	File
+	Object Name:	\Device\HarddiskVolume7\MainShare\TestShare2\WSUS Fix for Windows 8.1.doc
+	Handle ID:	0xa04
+
+Process Information:
+	Process ID:	0x4
+	Process Name:	
+
+Access Request Information:
+	Accesses:	ReadData (or ListDirectory)
+			
+	Access Mask:	0x1"
+Information	7/20/2015 12:52:06 PM	Microsoft-Windows-Security-Auditing	4656	File System	"A handle to an object was requested.
+
+Subject:
+	Security ID:		S-1-5-21-3794405679-3244179209-1787853216-1156
+	Account Name:		teacher2
+	Account Domain:		GROUP2-305
+	Logon ID:		0x224336e
+
+Object:
+	Object Server:		Security
+	Object Type:		File
+	Object Name:		\Device\HarddiskVolume7\MainShare\TestShare2\WSUS Fix for Windows 8.1.doc
+	Handle ID:		0xa04
+
+Process Information:
+	Process ID:		0x4
+	Process Name:		
+
+Access Request Information:
+	Transaction ID:		{00000000-0000-0000-0000-000000000000}
+	Accesses:		READ_CONTROL
+			ReadData (or ListDirectory)
+			ReadEA
+			ReadAttributes
+			
+	Access Mask:		0x20089
+	Privileges Used for Access Check:	-
+	Restricted SID Count:	0"
+Information	7/20/2015 12:50:47 PM	Microsoft-Windows-Security-Auditing	4656	File System	"A handle to an object was requested.
+
+Subject:
+	Security ID:		S-1-5-21-3794405679-3244179209-1787853216-1156
+	Account Name:		teacher2
+	Account Domain:		GROUP2-305
+	Logon ID:		0x224336e
+
+Object:
+	Object Server:		Security
+	Object Type:		File
+	Object Name:		\Device\HarddiskVolume7\MainShare\TestShare2
+	Handle ID:		0x28c
+
+Process Information:
+	Process ID:		0x4
+	Process Name:		
+
+Access Request Information:
+	Transaction ID:		{00000000-0000-0000-0000-000000000000}
+	Accesses:		ReadData (or ListDirectory)
+			ReadAttributes
+			
+	Access Mask:		0x81
+	Privileges Used for Access Check:	-
+	Restricted SID Count:	0"
+Information	7/20/2015 12:50:46 PM	Microsoft-Windows-Security-Auditing	4656	File System	"A handle to an object was requested.
+
+Subject:
+	Security ID:		S-1-5-21-3794405679-3244179209-1787853216-1156
+	Account Name:		teacher2
+	Account Domain:		GROUP2-305
+	Logon ID:		0x224336e
+
+Object:
+	Object Server:		Security
+	Object Type:		File
+	Object Name:		\Device\HarddiskVolume7\MainShare\TestShare2\New folder (4)
+	Handle ID:		0x28c
+
+Process Information:
+	Process ID:		0x4
+	Process Name:		
+
+Access Request Information:
+	Transaction ID:		{00000000-0000-0000-0000-000000000000}
+	Accesses:		ReadData (or ListDirectory)
+			ReadAttributes
+			
+	Access Mask:		0x81
+	Privileges Used for Access Check:	-
+	Restricted SID Count:	0"
+Information	7/20/2015 12:50:46 PM	Microsoft-Windows-Security-Auditing	4656	File System	"A handle to an object was requested.
+
+Subject:
+	Security ID:		S-1-5-21-3794405679-3244179209-1787853216-1156
+	Account Name:		teacher2
+	Account Domain:		GROUP2-305
+	Logon ID:		0x224336e
+
+Object:
+	Object Server:		Security
+	Object Type:		File
+	Object Name:		\Device\HarddiskVolume7\MainShare\TestShare2\New folder (3)
+	Handle ID:		0x28c
+
+Process Information:
+	Process ID:		0x4
+	Process Name:		
+
+Access Request Information:
+	Transaction ID:		{00000000-0000-0000-0000-000000000000}
+	Accesses:		ReadData (or ListDirectory)
+			ReadAttributes
+			
+	Access Mask:		0x81
+	Privileges Used for Access Check:	-
+	Restricted SID Count:	0"
+Information	7/20/2015 12:50:46 PM	Microsoft-Windows-Security-Auditing	4656	File System	"A handle to an object was requested.
+
+Subject:
+	Security ID:		S-1-5-21-3794405679-3244179209-1787853216-1156
+	Account Name:		teacher2
+	Account Domain:		GROUP2-305
+	Logon ID:		0x224336e
+
+Object:
+	Object Server:		Security
+	Object Type:		File
+	Object Name:		\Device\HarddiskVolume7\MainShare\TestShare2\New folder (2)
+	Handle ID:		0x28c
+
+Process Information:
+	Process ID:		0x4
+	Process Name:		
+
+Access Request Information:
+	Transaction ID:		{00000000-0000-0000-0000-000000000000}
+	Accesses:		ReadData (or ListDirectory)
+			ReadAttributes
+			
+	Access Mask:		0x81
+	Privileges Used for Access Check:	-
+	Restricted SID Count:	0"
+Information	7/20/2015 12:50:46 PM	Microsoft-Windows-Security-Auditing	4656	File System	"A handle to an object was requested.
+
+Subject:
+	Security ID:		S-1-5-21-3794405679-3244179209-1787853216-1156
+	Account Name:		teacher2
+	Account Domain:		GROUP2-305
+	Logon ID:		0x224336e
+
+Object:
+	Object Server:		Security
+	Object Type:		File
+	Object Name:		\Device\HarddiskVolume7\MainShare\TestShare2\New folder
+	Handle ID:		0x28c
+
+Process Information:
+	Process ID:		0x4
+	Process Name:		
+
+Access Request Information:
+	Transaction ID:		{00000000-0000-0000-0000-000000000000}
+	Accesses:		ReadData (or ListDirectory)
+			ReadAttributes
+			
+	Access Mask:		0x81
+	Privileges Used for Access Check:	-
+	Restricted SID Count:	0"
+Information	7/20/2015 12:50:46 PM	Microsoft-Windows-Security-Auditing	4656	File System	"A handle to an object was requested.
+
+Subject:
+	Security ID:		S-1-5-21-3794405679-3244179209-1787853216-1156
+	Account Name:		teacher2
+	Account Domain:		GROUP2-305
+	Logon ID:		0x224336e
+
+Object:
+	Object Server:		Security
+	Object Type:		File
+	Object Name:		\Device\HarddiskVolume7\MainShare\TestShare2\innerfolder
+	Handle ID:		0x28c
+
+Process Information:
+	Process ID:		0x4
+	Process Name:		
+
+Access Request Information:
+	Transaction ID:		{00000000-0000-0000-0000-000000000000}
+	Accesses:		ReadData (or ListDirectory)
+			ReadAttributes
+			
+	Access Mask:		0x81
+	Privileges Used for Access Check:	-
+	Restricted SID Count:	0"
+Information	7/20/2015 12:50:46 PM	Microsoft-Windows-Security-Auditing	4656	File System	"A handle to an object was requested.
+
+Subject:
+	Security ID:		S-1-5-21-3794405679-3244179209-1787853216-1156
+	Account Name:		teacher2
+	Account Domain:		GROUP2-305
+	Logon ID:		0x224336e
+
+Object:
+	Object Server:		Security
+	Object Type:		File
+	Object Name:		\Device\HarddiskVolume7\MainShare\TestShare2
+	Handle ID:		0x28c
+
+Process Information:
+	Process ID:		0x4
+	Process Name:		
+
+Access Request Information:
+	Transaction ID:		{00000000-0000-0000-0000-000000000000}
+	Accesses:		ReadData (or ListDirectory)
+			ReadAttributes
+			
+	Access Mask:		0x81
+	Privileges Used for Access Check:	-
+	Restricted SID Count:	0"
+Information	7/20/2015 12:50:08 PM	Microsoft-Windows-Security-Auditing	5140	File Share	"A network share object was accessed.
+	
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		DIM-305$
+	Account Domain:		GROUP2-305
+	Logon ID:		0x22792e1
+
+Network Information:	
+	Source Address:		::1
+	Source Port:		58599
+	
+Share Name:			\\*\IPC$"
+Information	7/20/2015 12:50:08 PM	Microsoft-Windows-Security-Auditing	4624	Logon	"An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Logon Type:			3
+
+New Logon:
+	Security ID:		S-1-5-18
+	Account Name:		DIM-305$
+	Account Domain:		GROUP2-305
+	Logon ID:		0x22792e1
+	Logon GUID:		{2E26668D-C2B4-4FBD-95D3-9FCD293A42DB}
+
+Process Information:
+	Process ID:		0x0
+	Process Name:		-
+
+Network Information:
+	Workstation Name:	
+	Source Network Address:	::1
+	Source Port:		58599
+
+Detailed Authentication Information:
+	Logon Process:		Kerberos
+	Authentication Package:	Kerberos
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested."
+Information	7/20/2015 12:50:08 PM	Microsoft-Windows-Security-Auditing	5140	File Share	"A network share object was accessed.
+	
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		DIM-305$
+	Account Domain:		GROUP2-305
+	Logon ID:		0x22792e1
+
+Network Information:	
+	Source Address:		::1
+	Source Port:		58599
+	
+Share Name:			\\*\SYSVOL"
+Information	7/20/2015 12:49:58 PM	Microsoft-Windows-Security-Auditing	4624	Logon	"An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Logon Type:			3
+
+New Logon:
+	Security ID:		S-1-5-18
+	Account Name:		DIM-305$
+	Account Domain:		GROUP2-305
+	Logon ID:		0x227865e
+	Logon GUID:		{9F0A41D5-5052-66A1-9D7E-6F11256D89A8}
+
+Process Information:
+	Process ID:		0x0
+	Process Name:		-
+
+Network Information:
+	Workstation Name:	
+	Source Network Address:	10.10.25.248
+	Source Port:		58596
+
+Detailed Authentication Information:
+	Logon Process:		Kerberos
+	Authentication Package:	Kerberos
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested."
+Information	7/20/2015 12:49:58 PM	Microsoft-Windows-Security-Auditing	4624	Logon	"An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Logon Type:			3
+
+New Logon:
+	Security ID:		S-1-5-18
+	Account Name:		DIM-305$
+	Account Domain:		GROUP2-305
+	Logon ID:		0x22785e5
+	Logon GUID:		{9F0A41D5-5052-66A1-9D7E-6F11256D89A8}
+
+Process Information:
+	Process ID:		0x0
+	Process Name:		-
+
+Network Information:
+	Workstation Name:	
+	Source Network Address:	10.10.25.248
+	Source Port:		58594
+
+Detailed Authentication Information:
+	Logon Process:		Kerberos
+	Authentication Package:	Kerberos
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested."
+Information	7/20/2015 12:49:38 PM	Microsoft-Windows-Security-Auditing	4656	File System	"A handle to an object was requested.
+
+Subject:
+	Security ID:		S-1-5-21-3794405679-3244179209-1787853216-1156
+	Account Name:		teacher2
+	Account Domain:		GROUP2-305
+	Logon ID:		0x224336e
+
+Object:
+	Object Server:		Security
+	Object Type:		File
+	Object Name:		\Device\HarddiskVolume7\MainShare
+	Handle ID:		0x234
+
+Process Information:
+	Process ID:		0x4
+	Process Name:		
+
+Access Request Information:
+	Transaction ID:		{00000000-0000-0000-0000-000000000000}
+	Accesses:		ReadData (or ListDirectory)
+			ReadAttributes
+			
+	Access Mask:		0x81
+	Privileges Used for Access Check:	-
+	Restricted SID Count:	0"
+Information	7/20/2015 12:49:38 PM	Microsoft-Windows-Security-Auditing	4656	File System	"A handle to an object was requested.
+
+Subject:
+	Security ID:		S-1-5-21-3794405679-3244179209-1787853216-1156
+	Account Name:		teacher2
+	Account Domain:		GROUP2-305
+	Logon ID:		0x224336e
+
+Object:
+	Object Server:		Security
+	Object Type:		File
+	Object Name:		\Device\HarddiskVolume7\MainShare
+	Handle ID:		0x910
+
+Process Information:
+	Process ID:		0x4
+	Process Name:		
+
+Access Request Information:
+	Transaction ID:		{00000000-0000-0000-0000-000000000000}
+	Accesses:		ReadData (or ListDirectory)
+			ReadAttributes
+			
+	Access Mask:		0x81
+	Privileges Used for Access Check:	-
+	Restricted SID Count:	0"
+Information	7/20/2015 12:47:52 PM	Microsoft-Windows-Security-Auditing	4624	Logon	"An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Logon Type:			3
+
+New Logon:
+	Security ID:		S-1-5-18
+	Account Name:		DIM-305$
+	Account Domain:		GROUP2-305
+	Logon ID:		0x2269b18
+	Logon GUID:		{2E26668D-C2B4-4FBD-95D3-9FCD293A42DB}
+
+Process Information:
+	Process ID:		0x0
+	Process Name:		-
+
+Network Information:
+	Workstation Name:	
+	Source Network Address:	::1
+	Source Port:		58542
+
+Detailed Authentication Information:
+	Logon Process:		Kerberos
+	Authentication Package:	Kerberos
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested."
+Information	7/20/2015 12:47:52 PM	Microsoft-Windows-Security-Auditing	5140	File Share	"A network share object was accessed.
+	
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		DIM-305$
+	Account Domain:		GROUP2-305
+	Logon ID:		0x2269b18
+
+Network Information:	
+	Source Address:		::1
+	Source Port:		58542
+	
+Share Name:			\\*\SYSVOL"
+Information	7/20/2015 12:47:52 PM	Microsoft-Windows-Security-Auditing	4624	Logon	"An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Logon Type:			3
+
+New Logon:
+	Security ID:		S-1-5-18
+	Account Name:		DIM-305$
+	Account Domain:		GROUP2-305
+	Logon ID:		0x2269af7
+	Logon GUID:		{254DA3FC-3CE4-0BD4-D151-ED09117E9E8C}
+
+Process Information:
+	Process ID:		0x0
+	Process Name:		-
+
+Network Information:
+	Workstation Name:	
+	Source Network Address:	10.10.25.248
+	Source Port:		58541
+
+Detailed Authentication Information:
+	Logon Process:		Kerberos
+	Authentication Package:	Kerberos
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested."
+Information	7/20/2015 12:47:51 PM	Microsoft-Windows-Security-Auditing	4624	Logon	"An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Logon Type:			3
+
+New Logon:
+	Security ID:		S-1-5-18
+	Account Name:		DIM-305$
+	Account Domain:		GROUP2-305
+	Logon ID:		0x2269aac
+	Logon GUID:		{51A42278-3158-F492-8A4D-ECCC1CA0039F}
+
+Process Information:
+	Process ID:		0x0
+	Process Name:		-
+
+Network Information:
+	Workstation Name:	
+	Source Network Address:	::1
+	Source Port:		0
+
+Detailed Authentication Information:
+	Logon Process:		Kerberos
+	Authentication Package:	Kerberos
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested."
+Information	7/20/2015 12:47:51 PM	Microsoft-Windows-Security-Auditing	4624	Logon	"An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Logon Type:			3
+
+New Logon:
+	Security ID:		S-1-5-18
+	Account Name:		DIM-305$
+	Account Domain:		GROUP2-305
+	Logon ID:		0x22699ef
+	Logon GUID:		{254DA3FC-3CE4-0BD4-D151-ED09117E9E8C}
+
+Process Information:
+	Process ID:		0x0
+	Process Name:		-
+
+Network Information:
+	Workstation Name:	
+	Source Network Address:	10.10.25.248
+	Source Port:		58540
+
+Detailed Authentication Information:
+	Logon Process:		Kerberos
+	Authentication Package:	Kerberos
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested."
+Information	7/20/2015 12:44:58 PM	Microsoft-Windows-Security-Auditing	4624	Logon	"An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Logon Type:			3
+
+New Logon:
+	Security ID:		S-1-5-18
+	Account Name:		DIM-305$
+	Account Domain:		GROUP2-305
+	Logon ID:		0x22576a0
+	Logon GUID:		{9F0A41D5-5052-66A1-9D7E-6F11256D89A8}
+
+Process Information:
+	Process ID:		0x0
+	Process Name:		-
+
+Network Information:
+	Workstation Name:	
+	Source Network Address:	10.10.25.248
+	Source Port:		58468
+
+Detailed Authentication Information:
+	Logon Process:		Kerberos
+	Authentication Package:	Kerberos
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested."
+Information	7/20/2015 12:44:58 PM	Microsoft-Windows-Security-Auditing	4624	Logon	"An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Logon Type:			3
+
+New Logon:
+	Security ID:		S-1-5-18
+	Account Name:		DIM-305$
+	Account Domain:		GROUP2-305
+	Logon ID:		0x225762b
+	Logon GUID:		{9F0A41D5-5052-66A1-9D7E-6F11256D89A8}
+
+Process Information:
+	Process ID:		0x0
+	Process Name:		-
+
+Network Information:
+	Workstation Name:	
+	Source Network Address:	10.10.25.248
+	Source Port:		58466
+
+Detailed Authentication Information:
+	Logon Process:		Kerberos
+	Authentication Package:	Kerberos
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested."
+Information	7/20/2015 12:43:06 PM	Microsoft-Windows-Security-Auditing	5140	File Share	"A network share object was accessed.
+	
+Subject:
+	Security ID:		S-1-5-21-3794405679-3244179209-1787853216-1145
+	Account Name:		309-20$
+	Account Domain:		GROUP2-305
+	Logon ID:		0x224d965
+
+Network Information:	
+	Source Address:		10.10.25.243
+	Source Port:		57646
+	
+Share Name:			\\*\IPC$"
+Information	7/20/2015 12:43:06 PM	Microsoft-Windows-Security-Auditing	4624	Logon	"An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Logon Type:			3
+
+New Logon:
+	Security ID:		S-1-5-21-3794405679-3244179209-1787853216-1145
+	Account Name:		309-20$
+	Account Domain:		GROUP2-305
+	Logon ID:		0x224d965
+	Logon GUID:		{75A388E3-8ABE-17AB-0211-0F5B6E950D4F}
+
+Process Information:
+	Process ID:		0x0
+	Process Name:		-
+
+Network Information:
+	Workstation Name:	
+	Source Network Address:	10.10.25.243
+	Source Port:		57646
+
+Detailed Authentication Information:
+	Logon Process:		Kerberos
+	Authentication Package:	Kerberos
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested."
+Information	7/20/2015 12:42:47 PM	Microsoft-Windows-Security-Auditing	4624	Logon	"An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Logon Type:			3
+
+New Logon:
+	Security ID:		S-1-5-18
+	Account Name:		DIM-305$
+	Account Domain:		GROUP2-305
+	Logon ID:		0x224bae8
+	Logon GUID:		{2E26668D-C2B4-4FBD-95D3-9FCD293A42DB}
+
+Process Information:
+	Process ID:		0x0
+	Process Name:		-
+
+Network Information:
+	Workstation Name:	
+	Source Network Address:	::1
+	Source Port:		58439
+
+Detailed Authentication Information:
+	Logon Process:		Kerberos
+	Authentication Package:	Kerberos
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested."
+Information	7/20/2015 12:42:47 PM	Microsoft-Windows-Security-Auditing	5140	File Share	"A network share object was accessed.
+	
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		DIM-305$
+	Account Domain:		GROUP2-305
+	Logon ID:		0x224bae8
+
+Network Information:	
+	Source Address:		::1
+	Source Port:		58439
+	
+Share Name:			\\*\SYSVOL"
+Information	7/20/2015 12:42:47 PM	Microsoft-Windows-Security-Auditing	4624	Logon	"An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Logon Type:			3
+
+New Logon:
+	Security ID:		S-1-5-18
+	Account Name:		DIM-305$
+	Account Domain:		GROUP2-305
+	Logon ID:		0x224bac9
+	Logon GUID:		{254DA3FC-3CE4-0BD4-D151-ED09117E9E8C}
+
+Process Information:
+	Process ID:		0x0
+	Process Name:		-
+
+Network Information:
+	Workstation Name:	
+	Source Network Address:	10.10.25.248
+	Source Port:		58438
+
+Detailed Authentication Information:
+	Logon Process:		Kerberos
+	Authentication Package:	Kerberos
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested."
+Information	7/20/2015 12:42:47 PM	Microsoft-Windows-Security-Auditing	4624	Logon	"An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Logon Type:			3
+
+New Logon:
+	Security ID:		S-1-5-18
+	Account Name:		DIM-305$
+	Account Domain:		GROUP2-305
+	Logon ID:		0x224ba7e
+	Logon GUID:		{A5AD8E1B-D9E2-60E4-2A11-4527CC3E8A81}
+
+Process Information:
+	Process ID:		0x0
+	Process Name:		-
+
+Network Information:
+	Workstation Name:	
+	Source Network Address:	::1
+	Source Port:		0
+
+Detailed Authentication Information:
+	Logon Process:		Kerberos
+	Authentication Package:	Kerberos
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested."
+Information	7/20/2015 12:42:47 PM	Microsoft-Windows-Security-Auditing	4624	Logon	"An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Logon Type:			3
+
+New Logon:
+	Security ID:		S-1-5-18
+	Account Name:		DIM-305$
+	Account Domain:		GROUP2-305
+	Logon ID:		0x224b9c1
+	Logon GUID:		{254DA3FC-3CE4-0BD4-D151-ED09117E9E8C}
+
+Process Information:
+	Process ID:		0x0
+	Process Name:		-
+
+Network Information:
+	Workstation Name:	
+	Source Network Address:	10.10.25.248
+	Source Port:		58437
+
+Detailed Authentication Information:
+	Logon Process:		Kerberos
+	Authentication Package:	Kerberos
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested."
+Information	7/20/2015 12:42:43 PM	Microsoft-Windows-Security-Auditing	4656	File System	"A handle to an object was requested.
+
+Subject:
+	Security ID:		S-1-5-21-3794405679-3244179209-1787853216-1156
+	Account Name:		teacher2
+	Account Domain:		GROUP2-305
+	Logon ID:		0x224336e
+
+Object:
+	Object Server:		Security
+	Object Type:		File
+	Object Name:		\Device\HarddiskVolume7\
+	Handle ID:		0xa54
+
+Process Information:
+	Process ID:		0x4
+	Process Name:		
+
+Access Request Information:
+	Transaction ID:		{00000000-0000-0000-0000-000000000000}
+	Accesses:		ReadData (or ListDirectory)
+			ReadAttributes
+			
+	Access Mask:		0x81
+	Privileges Used for Access Check:	-
+	Restricted SID Count:	0"
+Information	7/20/2015 12:42:43 PM	Microsoft-Windows-Security-Auditing	4656	File System	"A handle to an object was requested.
+
+Subject:
+	Security ID:		S-1-5-21-3794405679-3244179209-1787853216-1156
+	Account Name:		teacher2
+	Account Domain:		GROUP2-305
+	Logon ID:		0x224336e
+
+Object:
+	Object Server:		Security
+	Object Type:		File
+	Object Name:		\Device\HarddiskVolume7\
+	Handle ID:		0xa04
+
+Process Information:
+	Process ID:		0x4
+	Process Name:		
+
+Access Request Information:
+	Transaction ID:		{00000000-0000-0000-0000-000000000000}
+	Accesses:		ReadData (or ListDirectory)
+			ReadAttributes
+			
+	Access Mask:		0x81
+	Privileges Used for Access Check:	-
+	Restricted SID Count:	0"
+Information	7/20/2015 12:41:40 PM	Microsoft-Windows-Security-Auditing	4624	Logon	"An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Logon Type:			3
+
+New Logon:
+	Security ID:		S-1-5-21-3794405679-3244179209-1787853216-1156
+	Account Name:		teacher2
+	Account Domain:		GROUP2-305
+	Logon ID:		0x22438e8
+	Logon GUID:		{3867957A-893D-B9F4-A8F7-3A46866121AE}
+
+Process Information:
+	Process ID:		0x0
+	Process Name:		-
+
+Network Information:
+	Workstation Name:	
+	Source Network Address:	10.10.25.243
+	Source Port:		57639
+
+Detailed Authentication Information:
+	Logon Process:		Kerberos
+	Authentication Package:	Kerberos
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested."
+Information	7/20/2015 12:41:38 PM	Microsoft-Windows-Security-Auditing	5140	File Share	"A network share object was accessed.
+	
+Subject:
+	Security ID:		S-1-5-21-3794405679-3244179209-1787853216-1156
+	Account Name:		teacher2
+	Account Domain:		GROUP2-305
+	Logon ID:		0x224336e
+
+Network Information:	
+	Source Address:		10.10.25.243
+	Source Port:		62942
+	
+Share Name:			\\*\sharedrive"
+Information	7/20/2015 12:41:38 PM	Microsoft-Windows-Security-Auditing	5140	File Share	"A network share object was accessed.
+	
+Subject:
+	Security ID:		S-1-5-21-3794405679-3244179209-1787853216-1156
+	Account Name:		teacher2
+	Account Domain:		GROUP2-305
+	Logon ID:		0x224336e
+
+Network Information:	
+	Source Address:		10.10.25.243
+	Source Port:		62942
+	
+Share Name:			\\*\IPC$"
+Information	7/20/2015 12:41:38 PM	Microsoft-Windows-Security-Auditing	4624	Logon	"An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Logon Type:			3
+
+New Logon:
+	Security ID:		S-1-5-21-3794405679-3244179209-1787853216-1156
+	Account Name:		teacher2
+	Account Domain:		GROUP2-305
+	Logon ID:		0x224336e
+	Logon GUID:		{42D40E48-4BBF-A524-4B03-C93D4107F80E}
+
+Process Information:
+	Process ID:		0x0
+	Process Name:		-
+
+Network Information:
+	Workstation Name:	
+	Source Network Address:	10.10.25.243
+	Source Port:		62942
+
+Detailed Authentication Information:
+	Logon Process:		Kerberos
+	Authentication Package:	Kerberos
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested."
+Information	7/20/2015 12:41:34 PM	Microsoft-Windows-Security-Auditing	4624	Logon	"An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Logon Type:			3
+
+New Logon:
+	Security ID:		S-1-5-21-3794405679-3244179209-1787853216-1156
+	Account Name:		teacher2
+	Account Domain:		GROUP2-305
+	Logon ID:		0x2242899
+	Logon GUID:		{FF2CD7F2-97D5-5499-1378-F611A3BA3386}
+
+Process Information:
+	Process ID:		0x0
+	Process Name:		-
+
+Network Information:
+	Workstation Name:	
+	Source Network Address:	10.10.25.243
+	Source Port:		57635
+
+Detailed Authentication Information:
+	Logon Process:		Kerberos
+	Authentication Package:	Kerberos
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested."
+Information	7/20/2015 12:41:34 PM	Microsoft-Windows-Security-Auditing	4624	Logon	"An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Logon Type:			3
+
+New Logon:
+	Security ID:		S-1-5-21-3794405679-3244179209-1787853216-1156
+	Account Name:		teacher2
+	Account Domain:		GROUP2-305
+	Logon ID:		0x224287f
+	Logon GUID:		{3867957A-893D-B9F4-A8F7-3A46866121AE}
+
+Process Information:
+	Process ID:		0x0
+	Process Name:		-
+
+Network Information:
+	Workstation Name:	
+	Source Network Address:	10.10.25.243
+	Source Port:		57633
+
+Detailed Authentication Information:
+	Logon Process:		Kerberos
+	Authentication Package:	Kerberos
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested."
+Information	7/20/2015 12:41:33 PM	Microsoft-Windows-Security-Auditing	4624	Logon	"An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Logon Type:			3
+
+New Logon:
+	Security ID:		S-1-5-21-3794405679-3244179209-1787853216-1156
+	Account Name:		teacher2
+	Account Domain:		GROUP2-305
+	Logon ID:		0x2242379
+	Logon GUID:		{82430665-8015-97E1-09F8-7B6B9D2A4F46}
+
+Process Information:
+	Process ID:		0x0
+	Process Name:		-
+
+Network Information:
+	Workstation Name:	
+	Source Network Address:	10.10.25.243
+	Source Port:		57626
+
+Detailed Authentication Information:
+	Logon Process:		Kerberos
+	Authentication Package:	Kerberos
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested."
+Information	7/20/2015 12:41:26 PM	Microsoft-Windows-Eventlog	1102	Log clear	"The audit log was cleared.
+Subject:
+	Security ID:	S-1-5-21-3794405679-3244179209-1787853216-500
+	Account Name:	Administrator
+	Domain Name:	GROUP2-305
+	Logon ID:	0x63093c"
