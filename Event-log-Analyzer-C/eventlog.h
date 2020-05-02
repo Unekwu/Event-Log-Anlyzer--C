@@ -22,18 +22,15 @@
 		char logonID[100];//variable to logon ID
 		struct llist *next; //pointer to next 
 	}llist;
-  
- // struct llist* root = NULL;
 
-
-//function definition to create new node
- FILE *fout;
- FILE* fout1;
-FILE* fout2; 
-FILE* fout3; 
-FILE* fout4; 
-FILE* fout5;
-FILE*fout6;
+	//ouput file declaration
+	FILE *fout;
+	FILE* fout1;
+	FILE* fout2; 
+	FILE* fout3; 
+	FILE* fout4; 
+	FILE* fout5;
+	FILE*fout6;
  	char buffer[256];
 					  //function prototype to create new node to store values
 	//void createNewNode();
