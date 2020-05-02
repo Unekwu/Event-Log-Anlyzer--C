@@ -9,21 +9,8 @@
 //using namespace std;
 
 
-	typedef struct llist {
-/*
-		char *date;//variable to read date 
-		char *time;//variable to read time
-		char *source;//variable to read source
-		char *eventID;//variable to read eventID
-		char *category ;//variable to read category
-		char *idCategory;//variable to id category
-		char *secID;//variable to security ID
-		char *accName; //variable to account name 
-		char *accDomain;//variable to account domain
-		char *logonID;//variable to logon ID
-		node * next = NULL; //pointer to next 
-*/
-    char date[100];//variable to read date 
+	typedef struct linkedList {
+                char date[100];//variable to read date 
 		char time[100];//variable to read time
 		char source[100];//variable to read source
 		char eventID[100];//variable to read eventID
@@ -47,7 +34,7 @@ FILE* fout3;
 FILE* fout4; 
 FILE* fout5;
 FILE*fout6;
- char buffer[256];
+ 	char buffer[256];
 					  //function prototype to create new node to store values
 	//void createNewNode();
 
