@@ -37,18 +37,18 @@ void includeEventIdCategory(llist* curr, char* id) {
 
 //function definition to include Date
 void includeDate(llist *curr,  char* date) {
-	strcpy (curr->date, date);//add date to node
+	strcpy (curr->date, date);
 }
 
 //function definition to include Time
 void includeTime(llist *curr, char* time) {
-	strcpy(curr->time, time);//add time to node
+	strcpy(curr->time, time);
 }
 
 
 //function definition to include Source
 void includeSource(llist *curr, char* source) {
-	strcpy(curr->source, source);//add source to node
+	strcpy(curr->source, source);
 }
 
 
@@ -61,32 +61,31 @@ void includeEventID(llist *curr, char* eventID) {
 //function definition to include event Category
 void includeEventCategory(llist *curr, char* category) {
 
-	strncpy(curr->category, category,12);//add category to node
+	strncpy(curr->category, category,12);
 }
 
 
 //function to include section ID
 void includeSecID(llist *curr, char* secID) {
-strcpy (curr->secID, secID);//add secIDto node
-//printf("CurrSecurity ID %s \n", curr->secID);
+strcpy (curr->secID, secID);
 }
 
 
 //function to include Account Name 
 void includeAccName(llist *curr, char* accName) {
-	strcpy (curr->accName, accName);//add accName  to node
+	strcpy (curr->accName, accName);
 }
 
 
 //function to include account domain
 void includeAccDomain(llist *curr, char*  accDomain) {
-	strcpy (curr->accDomain, accDomain);//add account domain to node
+	strcpy (curr->accDomain, accDomain);
 }
 
 
 //function to include logon ID
 void includeLogonID(llist *curr, char* logonID) {
-  strcpy (curr->logonID, logonID); //add logonId to node
+  strcpy (curr->logonID, logonID); 
 }
 
 
@@ -96,7 +95,7 @@ void displaylogInfo(llist *ptr) {
 	while (ptr->next) {
 		printf("\n\n %s \t\t%s \t\t%s \t\t%s \t\t%s \t\t%s\t\t%s \t\t%s \t\t%s\n", ptr->date,ptr->time, ptr->eventID, ptr->idCategory, ptr->category, ptr->secID,ptr->accName,ptr->accDomain, ptr->logonID);
     printf("\n");
-		ptr = ptr->next;//make ptr point to the next node of info 
+		ptr = ptr->next; 
 	}
 }
 
@@ -120,10 +119,10 @@ fprintf(fout, "DISPLAYTOFILE!! \n");
 			fprintf(fout,"\n\n %s \t\t%s \t\t%s \t\t%s \t\t%s \t\t%s\t\t%s \t\t%s \t\t%s\n", ptr->date,ptr->time, ptr->eventID, ptr->idCategory, ptr->category, ptr->secID,ptr->accName,ptr->accDomain, ptr->logonID);
 
    		        printf("\n");
-			ptr = ptr->next;//make ptr point to the next node of info 
+			ptr = ptr->next;
 	  	    		}
       	}
-	fclose(fout);//close the file
+	fclose(fout);
 }
  
 
@@ -131,8 +130,7 @@ fprintf(fout, "DISPLAYTOFILE!! \n");
 
 //functiion to read the node based on the category
 void readCategory(FILE* fout, llist *read) {
-	llist *ptr = read;//create a node that points to read
-					 //display this as the heading
+	llist *ptr = read;
 		fprintf(fout,"\n\n %s \t\t%s \t\t%s \t\t%s \t\t%s \t\t%s\t\t%s \t\t%s \t\t%s\n", ptr->date,ptr->time, ptr->eventID, ptr->idCategory, ptr->category, ptr->secID,ptr->accName,ptr->accDomain, ptr->logonID);
 }
 
@@ -150,29 +148,26 @@ void displayToDiffFile(llist *ptr)
 	fout4 =fopen("intended deletion file.txt","a");
 	fout5 = fopen("access object file.txt","a");
 	fout6= fopen("deleted object file.txt","a");
-	//add the headers to the file
+
  
  	if (fout1 == NULL) {
      	printf("not open");
         fprintf(stderr, "Can't open input file in.list!\n");
-     // exit(1);
+    
      }
 
     	if (fout2 == NULL) {
         fprintf(stderr, "Can't open input file in.list!\n");
-      //exit(1);
      }
      	if (fout3 == NULL) {
         fprintf(stderr, "Can't open input file in.list!\n");
-      //exit(1);
      }
      	if (fout4 == NULL) {
         fprintf(stderr, "Can't open input file in.list!\n");
-      //exit(1);
+
      }
      	if (fout5 == NULL) {
         fprintf(stderr, "Can't open input file in.list!\n");
-     	//exit(1);
      }
      	if (fout6 == NULL) {
         fprintf(stderr, "Can't open input file in.list!\n");
@@ -195,7 +190,7 @@ void displayToDiffFile(llist *ptr)
 
 	fprintf (fout6,  "The event ID is 4660 and ID category is: An object was deleted \n\n %s \t\t%s \t\t%s \t\t%s \t\t%s \t\t%s \t\t %s \t\t%s \t\t%s\n\n", "Date", "Time", "Event ID", "IDcategory","Task Category","security ID", "account name" , "Account domain","logon ID");
 
-	//loop through the current value in the node (category) and see that it matches the compared ID category 
+	 
 	while (present->next) {
 		if (strcmp(present->eventID,"5140")==0) {
       fprintf (fout1, "The event ID is 5140 and ID category is: A network was acessed \n\n %s \t\t%s \t\t%s \t\t%s \t\t%s \t\t%s \t\t %s \t\t%s \t\t%s\n\n", "Date", "Time", "Event ID", "IDcategory","Task Category","security ID", "account name" , "Account domain","logon ID");
@@ -216,9 +211,9 @@ void displayToDiffFile(llist *ptr)
 		if (strcmp(present->eventID,"4660")==0)  {
 			readCategory(fout6, present);
 		}
-		present = present->next;//move present to the next node
+		present = present->next;
 	}
-	//close all the output files
+	
 	fclose(fout1);
 	fclose(fout2);
 	fclose(fout3);
